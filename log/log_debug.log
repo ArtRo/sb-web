@@ -1,0 +1,6 @@
+2018-12-27 13:13:25.864 [http-nio-8080-exec-1] DEBUG com.example.demo.dao.ThirdInfoDao.selectById - ==>  Preparing: select id, account_id, open_id, is_del, create_time, info_desc, nick_name, update_time, third_type from third_info WHERE id = ? 
+2018-12-27 13:13:25.908 [http-nio-8080-exec-1] DEBUG com.example.demo.dao.ThirdInfoDao.selectById - ==> Parameters: null
+2018-12-27 13:13:25.950 [http-nio-8080-exec-1] DEBUG com.example.demo.dao.ThirdInfoDao.selectById - <==      Total: 0
+2018-12-27 13:16:55.238 [http-nio-8080-exec-1] DEBUG com.example.demo.dao.ThirdInfoDao.selectById - ==>  Preparing: select id, account_id, open_id, is_del, create_time, info_desc, nick_name, update_time, third_type from third_info WHERE id = ? 
+2018-12-27 13:16:55.270 [http-nio-8080-exec-1] DEBUG com.example.demo.dao.ThirdInfoDao.selectById - ==> Parameters: null
+2018-12-27 13:16:55.302 [http-nio-8080-exec-1] DEBUG com.example.demo.dao.ThirdInfoDao.selectById - <==      Total: 0

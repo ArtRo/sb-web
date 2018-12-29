@@ -1,0 +1,435 @@
+2018-12-20 14:37:17.233 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 11508 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 14:37:17.235 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 14:37:18.767 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 14:37:18.780 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 14:37:18.791 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 14:37:18.792 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 14:37:18.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 14:37:18.897 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 14:37:18.897 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1558 ms
+2018-12-20 14:37:18.945 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-20 14:37:18.958 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 14:37:57.411 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 12316 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 14:37:57.413 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 14:37:59.232 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 14:37:59.245 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 14:37:59.255 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 14:37:59.256 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 14:37:59.277 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 14:37:59.373 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 14:37:59.373 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1918 ms
+2018-12-20 14:37:59.606 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 14:37:59.714 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 14:37:59.717 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-20 14:37:59.731 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 14:39:37.327 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 12948 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 14:39:37.330 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 14:39:38.965 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 14:39:38.979 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 14:39:38.990 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 14:39:38.990 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 14:39:38.997 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 14:39:39.092 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 14:39:39.092 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1683 ms
+2018-12-20 14:39:39.314 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 14:39:39.420 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 14:39:39.423 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-20 14:39:39.436 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:07:48.582 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 11516 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:07:48.585 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 15:07:49.970 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 15:07:49.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:07:49.990 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 15:07:49.990 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 15:07:49.997 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 15:07:50.090 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 15:07:50.091 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1457 ms
+2018-12-20 15:07:50.306 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:07:50.426 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:07:50.428 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-20 15:07:50.441 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:13:14.509 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 12388 (started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:13:14.511 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-20 15:13:16.940 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:13:17.387 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:13:17.397 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:21:22.727 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 1792 (started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:21:22.729 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-20 15:21:25.018 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:21:25.486 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:21:25.499 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:22:27.606 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 2148 (started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:22:27.609 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-20 15:22:29.982 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:22:30.395 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:22:30.408 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:23:17.760 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 11808 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:23:17.763 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 15:23:19.520 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 15:23:19.532 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:23:19.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 15:23:19.542 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 15:23:19.548 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 15:23:19.641 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 15:23:19.642 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1737 ms
+2018-12-20 15:23:19.896 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:23:20.041 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:23:20.044 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-20 15:23:20.059 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:32:48.248 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 500 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:32:48.251 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 15:32:50.110 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 15:32:50.129 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:32:50.144 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 15:32:50.145 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 15:32:50.155 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 15:32:50.251 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 15:32:50.251 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1915 ms
+2018-12-20 15:32:50.495 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:33:39.387 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:33:39.394 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-20 15:33:39.424 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:33:49.536 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 1208 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:33:49.538 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 15:33:51.069 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 15:33:51.083 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:33:51.096 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 15:33:51.096 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 15:33:51.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 15:33:51.206 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 15:33:51.206 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1597 ms
+2018-12-20 15:33:51.402 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:33:51.731 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:33:51.740 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 15:33:51.753 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 15:33:51.756 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.996 seconds (JVM running for 4.057)
+2018-12-20 15:42:53.118 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 15:42:53.118 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 15:42:53.125 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-12-20 15:43:44.627 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 12580 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:43:44.629 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 15:43:46.493 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 15:43:46.505 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:43:46.513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 15:43:46.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 15:43:46.521 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 15:43:46.610 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 15:43:46.610 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1909 ms
+2018-12-20 15:43:46.901 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:43:47.374 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:43:47.387 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 15:43:47.406 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 15:43:47.409 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.975 seconds (JVM running for 5.399)
+2018-12-20 15:44:08.588 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 15:44:08.588 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 15:44:08.595 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2018-12-20 15:46:50.391 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 12736 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:46:50.396 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 15:46:51.988 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 15:46:52.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:46:52.009 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 15:46:52.009 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 15:46:52.016 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 15:46:52.114 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 15:46:52.114 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1555 ms
+2018-12-20 15:46:52.377 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-20 15:46:52.389 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:50:03.265 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 8640 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:50:03.270 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 15:50:06.052 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 15:50:06.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:50:06.156 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 15:50:06.157 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 15:50:06.170 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 15:50:06.361 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 15:50:06.362 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2808 ms
+2018-12-20 15:50:07.319 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:50:07.774 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:50:07.789 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 15:50:07.822 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 15:50:07.826 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.802 seconds (JVM running for 8.757)
+2018-12-20 15:55:13.359 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 15:55:13.360 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 15:55:13.369 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2018-12-20 15:55:48.781 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 9460 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 15:55:48.784 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 15:55:50.357 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 15:55:50.370 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:55:50.379 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 15:55:50.379 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 15:55:50.386 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 15:55:50.477 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 15:55:50.477 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1540 ms
+2018-12-20 15:55:50.944 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 15:55:51.305 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 15:55:51.316 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 15:55:51.334 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 15:55:51.338 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.476 seconds (JVM running for 4.763)
+2018-12-20 15:58:05.443 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 15:58:05.444 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 15:58:05.451 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-12-20 15:58:11.255 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-20 16:01:36.381 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 12988 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 16:01:36.383 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 16:01:38.589 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 16:01:38.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:01:38.627 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 16:01:38.628 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 16:01:38.640 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 16:01:38.734 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 16:01:38.734 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2201 ms
+2018-12-20 16:01:39.197 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 16:01:39.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:01:39.604 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 16:01:39.621 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 16:01:39.625 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.359 seconds (JVM running for 5.618)
+2018-12-20 16:02:29.848 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 16:02:29.848 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 16:02:29.856 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2018-12-20 16:02:29.919 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-20 16:02:30.164 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-20 16:04:43.757 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 9672 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 16:04:43.760 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 16:04:45.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 16:04:45.542 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:04:45.550 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 16:04:45.550 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 16:04:45.557 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 16:04:45.647 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 16:04:45.647 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1697 ms
+2018-12-20 16:04:46.107 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 16:04:46.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:04:46.447 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 16:04:46.465 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 16:04:46.470 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.625 seconds (JVM running for 4.953)
+2018-12-20 16:04:55.430 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 16:04:55.431 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 16:04:55.438 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-12-20 16:04:55.499 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-20 16:05:00.335 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-20 16:12:27.068 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 11612 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 16:12:27.071 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 16:12:27.234 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-20 16:12:27.242 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-20 16:12:28.940 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 16:12:28.952 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:12:28.960 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 16:12:28.961 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 16:12:28.968 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 16:12:29.063 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 16:12:29.064 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1821 ms
+2018-12-20 16:12:29.683 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 16:12:30.042 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-20 16:12:30.090 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:12:30.116 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 16:12:30.147 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 16:12:30.153 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.918 seconds (JVM running for 5.192)
+2018-12-20 16:12:42.021 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 16:12:42.021 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 16:12:42.029 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2018-12-20 16:12:42.038 [http-nio-8080-exec-1] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 16:12:42.090 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-20 16:12:42.468 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-20 16:12:49.657 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne----------------------------------------------
+2018-12-20 16:13:59.912 [http-nio-8080-exec-4] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 16:14:00.085 [http-nio-8080-exec-6] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/favicon.ico-----------------------
+2018-12-20 16:14:48.097 [http-nio-8080-exec-7] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 16:16:14.093 [http-nio-8080-exec-9] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/favicon.ico-----------------------
+2018-12-20 16:16:49.264 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5768 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 16:16:49.267 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 16:16:49.420 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-20 16:16:49.421 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-20 16:16:51.226 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 16:16:51.240 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:16:51.248 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 16:16:51.248 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 16:16:51.256 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 16:16:51.346 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 16:16:51.346 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1925 ms
+2018-12-20 16:16:51.894 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 16:16:52.151 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-20 16:16:52.182 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:16:52.192 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 16:16:52.209 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 16:16:52.213 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.173 seconds (JVM running for 5.59)
+2018-12-20 16:16:58.362 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 16:16:58.362 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 16:16:58.372 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2018-12-20 16:16:58.383 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 16:16:58.454 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-20 16:16:58.778 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-20 16:16:58.985 [http-nio-8080-exec-1] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/favicon.ico-----------------------
+2018-12-20 16:17:35.054 [http-nio-8080-exec-4] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 16:17:35.154 [http-nio-8080-exec-5] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/favicon.ico-----------------------
+2018-12-20 16:19:39.142 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 7956 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 16:19:39.145 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 16:19:39.387 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-20 16:19:39.388 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-20 16:19:40.926 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 16:19:40.939 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:19:40.949 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 16:19:40.949 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 16:19:40.957 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 16:19:41.054 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 16:19:41.054 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1665 ms
+2018-12-20 16:19:41.665 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 16:19:41.942 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-20 16:19:41.974 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 16:19:41.986 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 16:19:42.003 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 16:19:42.006 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.984 seconds (JVM running for 5.385)
+2018-12-20 16:19:48.683 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 16:19:48.683 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 16:19:48.691 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2018-12-20 16:19:48.703 [http-nio-8080-exec-1] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 16:19:48.769 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-20 16:19:49.128 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-20 16:20:22.809 [http-nio-8080-exec-3] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 16:20:30.262 [http-nio-8080-exec-4] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 16:20:30.334 [http-nio-8080-exec-5] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/favicon.ico-----------------------
+2018-12-20 17:11:09.499 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 17:11:09.500 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-12-20 17:11:09.511 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-12-20 17:11:19.455 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 7956 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 17:11:19.455 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 17:11:20.094 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 17:11:20.094 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 17:11:20.094 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 17:11:20.109 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 17:11:20.110 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 650 ms
+2018-12-20 17:11:20.214 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 17:11:20.286 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-20 17:11:20.310 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 17:11:20.310 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 0.97 seconds (JVM running for 3103.689)
+2018-12-20 17:11:20.313 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-20 17:39:01.573 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 13024 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 17:39:01.576 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 17:39:01.723 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-20 17:39:01.724 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-20 17:39:02.642 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-20 17:39:02.644 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-20 17:39:02.676 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2018-12-20 17:39:03.055 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$f1e581a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 17:39:03.066 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aaafa250] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 17:39:03.570 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 17:39:03.582 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 17:39:03.591 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 17:39:03.592 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 17:39:03.600 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 17:39:03.694 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 17:39:03.694 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1970 ms
+2018-12-20 17:39:04.572 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 17:39:04.954 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-20 17:39:04.991 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 17:39:05.001 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 17:39:05.018 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 17:39:05.022 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.362 seconds (JVM running for 6.524)
+2018-12-20 17:39:35.621 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 3600 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 17:39:35.623 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 17:39:35.764 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-20 17:39:35.765 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-20 17:39:36.780 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-20 17:39:36.783 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-20 17:39:36.813 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2018-12-20 17:39:37.193 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$a502191b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 17:39:37.202 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5dcc39c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 17:39:37.655 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 17:39:37.667 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 17:39:37.676 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 17:39:37.676 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 17:39:37.683 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-20 17:39:37.776 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 17:39:37.776 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2011 ms
+2018-12-20 17:41:34.649 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 17:41:35.043 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-20 17:41:35.079 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 17:41:35.089 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-20 17:41:35.107 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 17:41:35.111 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 120.341 seconds (JVM running for 121.729)
+2018-12-20 17:41:42.614 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 17:41:42.615 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-20 17:41:42.627 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2018-12-20 17:41:42.637 [http-nio-8080-exec-1] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/test/getOne-----------------------
+2018-12-20 17:41:42.935 [http-nio-8080-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-12-20 17:41:42.938 [http-nio-8080-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-12-20 17:41:43.432 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080/favicon.ico-----------------------
+2018-12-20 18:07:32.085 [Thread-17] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-20 18:07:39.728 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 3600 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-20 18:07:39.729 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-20 18:07:40.169 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-20 18:07:40.169 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-20 18:07:40.182 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2018-12-20 18:07:40.279 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5dcc39c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 18:07:40.470 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-20 18:07:40.471 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-20 18:07:40.471 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-20 18:07:40.519 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-20 18:07:40.519 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 785 ms
+2018-12-20 18:07:40.866 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 18:07:41.144 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-20 18:07:41.183 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-20 18:07:41.208 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.613 seconds (JVM running for 1687.827)
+2018-12-20 18:07:41.228 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate matched:
+      - @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2018-12-20 18:07:44.878 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 1608 (started by cs in E:\base-workspace\springboot1)
+2018-12-20 18:07:44.880 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-20 18:07:46.078 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-20 18:07:46.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-20 18:07:46.122 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2018-12-20 18:07:46.699 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$d024e0d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 18:07:46.711 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88ef0183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 18:07:48.818 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-20 18:07:49.778 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 5.697 seconds (JVM running for 6.958)
+2018-12-20 18:07:50.129 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

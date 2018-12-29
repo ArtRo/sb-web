@@ -1,0 +1,1117 @@
+2018-12-24 13:41:27.052 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 10144 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 13:41:27.083 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 13:41:27.318 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 13:41:27.319 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 13:41:28.805 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 13:41:28.809 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 13:41:28.871 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-24 13:41:29.369 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc1d6d25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 13:41:29.870 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 13:41:29.887 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 13:41:29.900 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 13:41:29.900 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 13:41:29.909 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 13:41:30.022 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 13:41:30.022 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2703 ms
+2018-12-24 13:41:30.854 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:41:31.508 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 13:41:31.541 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 13:41:31.552 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 13:41:31.599 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 13:41:31.603 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.421 seconds (JVM running for 7.223)
+2018-12-24 13:42:56.225 [Thread-17] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:44:43.994 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 10144 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 13:44:43.994 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 13:44:44.364 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 13:44:44.364 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 13:44:44.366 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2018-12-24 13:44:44.438 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc1d6d25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 13:44:44.573 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 13:44:44.575 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 13:44:44.575 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 13:44:44.576 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 13:44:44.612 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 13:44:44.612 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 614 ms
+2018-12-24 13:44:44.756 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:44:44.920 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:44:44.920 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-24 13:44:44.931 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 13:44:47.457 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 10144 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 13:44:47.458 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 13:44:47.865 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 13:44:47.865 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 13:44:47.871 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-12-24 13:44:47.937 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc1d6d25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 13:44:48.073 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 13:44:48.074 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 13:44:48.075 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 13:44:48.075 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 13:44:48.101 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 13:44:48.101 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 639 ms
+2018-12-24 13:44:48.328 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:44:48.554 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 13:44:49.082 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 13:44:49.085 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 13:44:49.091 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 13:44:49.121 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.724 seconds (JVM running for 204.741)
+2018-12-24 13:44:49.128 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 13:56:59.662 [Thread-26] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:57:12.793 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 10144 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 13:57:12.794 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 13:57:13.194 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 13:57:13.194 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 13:57:13.195 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2018-12-24 13:57:13.263 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc1d6d25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 13:57:13.493 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 13:57:13.495 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 13:57:13.495 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 13:57:13.524 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 13:57:13.524 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 726 ms
+2018-12-24 13:57:13.733 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:57:14.018 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:57:14.018 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-24 13:57:14.027 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 13:57:18.585 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 10144 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 13:57:18.585 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 13:57:19.053 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 13:57:19.053 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 13:57:19.059 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-12-24 13:57:19.117 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc1d6d25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 13:57:19.219 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 13:57:19.220 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 13:57:19.221 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 13:57:19.238 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 13:57:19.238 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 640 ms
+2018-12-24 13:57:19.428 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:57:19.580 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 13:57:19.606 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 13:57:19.607 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.085 seconds (JVM running for 955.226)
+2018-12-24 13:57:19.610 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 13:57:25.049 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 6916 (started by cs in E:\base-workspace\springboot1)
+2018-12-24 13:57:25.052 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-24 13:57:26.258 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 13:57:26.263 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 13:57:26.310 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2018-12-24 13:57:26.930 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ad8b554] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 13:57:28.635 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:57:30.072 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 5.856 seconds (JVM running for 7.07)
+2018-12-24 13:57:30.489 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:57:53.248 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 15164 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 13:57:53.250 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 13:57:53.409 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 13:57:53.410 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 13:57:54.541 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 13:57:54.543 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 13:57:54.568 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2018-12-24 13:57:54.955 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76880487] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 13:57:55.571 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 13:57:55.585 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 13:57:55.596 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 13:57:55.596 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 13:57:55.604 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 13:57:55.745 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 13:57:55.745 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2335 ms
+2018-12-24 13:57:56.832 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 13:57:57.523 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 13:57:57.561 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 13:57:57.573 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 13:57:57.593 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 13:57:57.597 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.085 seconds (JVM running for 6.29)
+2018-12-24 14:02:01.717 [Thread-17] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:02:02.343 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 15164 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 14:02:02.344 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 14:02:02.899 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 14:02:02.899 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 14:02:02.920 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2018-12-24 14:02:03.048 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76880487] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 14:02:03.459 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 14:02:03.461 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:02:03.462 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 14:02:03.462 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 14:02:03.518 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 14:02:03.519 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1171 ms
+2018-12-24 14:02:03.576 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-24 14:02:03.588 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 14:02:19.227 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 15164 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 14:02:19.228 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 14:02:19.598 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 14:02:19.599 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 14:02:19.606 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-12-24 14:02:19.662 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76880487] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 14:02:19.774 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 14:02:19.775 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:02:19.776 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 14:02:19.776 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 14:02:19.798 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 14:02:19.798 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 565 ms
+2018-12-24 14:02:20.014 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:02:20.154 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 14:02:20.173 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:02:20.174 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 14:02:20.179 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 14:02:20.180 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.026 seconds (JVM running for 268.873)
+2018-12-24 14:02:20.184 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 14:02:28.389 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 7612 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 14:02:28.457 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 14:02:28.552 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 14:02:28.553 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 14:02:29.826 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 14:02:29.830 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 14:02:29.883 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2018-12-24 14:02:30.505 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9fe50db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 14:02:31.035 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 14:02:31.057 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:02:31.069 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 14:02:31.070 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 14:02:31.080 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 14:02:31.180 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 14:02:31.180 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2627 ms
+2018-12-24 14:02:31.864 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:02:32.536 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 14:02:32.571 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:02:32.582 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 14:02:32.600 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 14:02:32.603 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.102 seconds (JVM running for 8.045)
+2018-12-24 14:02:48.224 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 14:02:48.225 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 14:02:48.236 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2018-12-24 14:02:48.245 [http-nio-8080-exec-1] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:02:48.376 [http-nio-8080-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-12-24 14:02:48.379 [http-nio-8080-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-12-24 14:05:04.401 [lettuce-nioEventLoop-4-1] INFO  io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:648)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-24 14:05:04.513 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /127.0.0.1:6379
+2018-12-24 14:05:10.012 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2018-12-24 14:05:15.212 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2018-12-24 14:05:20.413 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2018-12-24 14:05:25.613 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2018-12-24 14:05:34.911 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2018-12-24 14:05:34.918 [lettuce-nioEventLoop-4-3] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 127.0.0.1:6379
+2018-12-24 14:05:36.512 [http-nio-8080-exec-3] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:05:41.825 [http-nio-8080-exec-6] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:06:47.493 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 14904 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 14:06:47.546 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 14:06:47.631 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 14:06:47.631 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 14:06:48.987 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 14:06:48.991 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 14:06:49.025 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2018-12-24 14:06:49.526 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d1ce6d21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 14:06:50.031 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 14:06:50.044 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:06:50.054 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 14:06:50.054 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 14:06:50.064 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 14:06:50.177 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 14:06:50.177 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2545 ms
+2018-12-24 14:06:51.020 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:06:51.761 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 14:06:51.804 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:06:51.821 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 14:06:51.848 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 14:06:51.852 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.218 seconds (JVM running for 6.823)
+2018-12-24 14:07:01.246 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 14:07:01.246 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 14:07:01.257 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2018-12-24 14:07:01.267 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:07:01.421 [http-nio-8080-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-12-24 14:07:01.423 [http-nio-8080-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-12-24 14:08:11.323 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 11476 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 14:08:11.326 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 14:08:11.491 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 14:08:11.498 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 14:08:12.779 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 14:08:12.783 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 14:08:12.836 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-24 14:08:13.625 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$158c9479] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 14:08:14.247 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 14:08:14.268 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:08:14.278 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 14:08:14.279 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 14:08:14.288 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 14:08:14.401 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 14:08:14.402 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2904 ms
+2018-12-24 14:08:15.178 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:08:15.876 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 14:08:15.923 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:08:15.939 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 14:08:15.965 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 14:08:15.969 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.418 seconds (JVM running for 7.285)
+2018-12-24 14:08:22.902 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 14:08:22.902 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 14:08:22.912 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2018-12-24 14:08:22.920 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:08:23.063 [http-nio-8080-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-12-24 14:08:23.065 [http-nio-8080-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-12-24 14:08:23.483 [http-nio-8080-exec-2] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 14:08:23.558 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-24 14:10:06.396 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 9712 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 14:10:06.399 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 14:10:06.541 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 14:10:06.542 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 14:10:07.902 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 14:10:07.908 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 14:10:07.993 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2018-12-24 14:10:08.674 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d08dd2c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 14:10:09.307 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 14:10:09.336 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:10:09.350 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 14:10:09.350 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 14:10:09.365 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 14:10:09.490 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 14:10:09.491 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2949 ms
+2018-12-24 14:10:10.390 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:10:11.104 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 14:10:11.154 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:10:11.167 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 14:10:11.190 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 14:10:11.195 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.545 seconds (JVM running for 7.656)
+2018-12-24 14:54:57.725 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 14:54:57.726 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 14:54:57.737 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2018-12-24 14:54:57.746 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:54:57.878 [http-nio-8080-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-12-24 14:54:57.880 [http-nio-8080-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-12-24 14:54:58.319 [http-nio-8080-exec-2] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 14:54:58.367 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-24 14:54:58.554 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-24 14:55:28.393 [http-nio-8080-exec-4] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:56:34.301 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 14:56:34.304 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 14:56:34.442 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 14:56:34.442 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 14:56:35.230 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 14:56:35.232 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 14:56:35.261 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2018-12-24 14:56:35.636 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 14:56:36.069 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 14:56:36.082 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:56:36.091 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 14:56:36.091 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 14:56:36.098 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 14:56:36.192 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 14:56:36.192 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1750 ms
+2018-12-24 14:56:36.871 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:56:37.487 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 14:56:37.519 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:56:37.531 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 14:56:37.549 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 14:56:37.553 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.132 seconds (JVM running for 6.607)
+2018-12-24 14:57:39.674 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 14:57:39.675 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 14:57:39.685 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2018-12-24 14:57:39.694 [http-nio-8080-exec-1] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:57:39.834 [http-nio-8080-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-12-24 14:57:39.836 [http-nio-8080-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-12-24 14:57:40.255 [http-nio-8080-exec-1] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 14:57:40.298 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-24 14:57:40.496 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-24 14:57:45.034 [http-nio-8080-exec-3] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:57:51.498 [http-nio-8080-exec-4] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:57:51.500 [http-nio-8080-exec-4] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 14:57:56.762 [http-nio-8080-exec-5] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:59:41.781 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:59:41.782 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-12-24 14:59:41.791 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-12-24 14:59:42.246 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 14:59:42.247 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 14:59:42.740 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 14:59:42.740 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 14:59:42.749 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2018-12-24 14:59:42.881 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 14:59:43.055 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 14:59:43.056 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:59:43.056 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 14:59:43.057 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 14:59:43.097 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 14:59:43.098 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 847 ms
+2018-12-24 14:59:43.339 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 14:59:43.663 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 14:59:43.699 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 14:59:43.700 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 14:59:43.704 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 14:59:43.705 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.521 seconds (JVM running for 192.759)
+2018-12-24 14:59:43.709 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 14:59:48.592 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 14:59:48.593 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 14:59:48.599 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2018-12-24 14:59:48.602 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:59:48.605 [http-nio-8080-exec-2] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 14:59:48.677 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2018-12-24 14:59:48.744 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2018-12-24 14:59:54.387 [http-nio-8080-exec-3] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 14:59:54.388 [http-nio-8080-exec-3] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 15:17:19.733 [Thread-23] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:17:19.736 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2018-12-24 15:17:19.744 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2018-12-24 15:17:20.248 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:17:20.249 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:17:20.843 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:17:20.844 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:17:20.858 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2018-12-24 15:17:20.950 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:17:21.098 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:17:21.099 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:17:21.102 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:17:21.102 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:17:21.130 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:17:21.130 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 874 ms
+2018-12-24 15:17:21.495 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:17:21.840 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:17:21.896 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:17:21.898 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 15:17:21.911 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:17:21.912 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.725 seconds (JVM running for 1250.966)
+2018-12-24 15:17:21.916 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 15:19:14.932 [http-nio-8080-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 15:19:14.933 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 15:19:14.940 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-12-24 15:19:14.941 [http-nio-8080-exec-6] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 15:19:14.943 [http-nio-8080-exec-6] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 15:19:14.967 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2018-12-24 15:19:15.032 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2018-12-24 15:21:16.526 [Thread-29] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:21:16.528 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2018-12-24 15:21:16.558 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2018-12-24 15:21:17.117 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:21:17.117 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:21:17.487 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:21:17.487 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:21:17.491 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2018-12-24 15:21:17.556 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:21:17.658 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:21:17.659 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:21:17.659 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:21:17.659 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:21:17.675 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:21:17.675 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 553 ms
+2018-12-24 15:21:17.820 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:21:17.958 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:21:17.977 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:21:17.978 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 15:21:17.983 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:21:17.984 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 0.936 seconds (JVM running for 1487.038)
+2018-12-24 15:21:17.986 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 15:22:18.061 [Thread-35] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:22:18.464 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:22:18.465 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:22:18.932 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:22:18.932 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:22:18.940 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2018-12-24 15:22:19.056 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:22:19.262 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:22:19.264 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:22:19.264 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:22:19.265 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:22:19.295 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:22:19.296 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 827 ms
+2018-12-24 15:22:19.528 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:22:19.821 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:22:19.854 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:22:19.856 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 15:22:19.861 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:22:19.861 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.456 seconds (JVM running for 1548.915)
+2018-12-24 15:22:19.865 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 15:29:57.412 [Thread-41] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:29:57.873 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:29:57.873 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:30:32.347 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 15:30:32.348 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 15:30:32.361 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:30:32.361 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:30:33.096 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:30:33.096 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:30:33.114 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2018-12-24 15:30:33.292 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:30:33.462 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:30:33.463 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:30:33.463 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:30:33.464 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:30:33.502 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:30:33.503 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1137 ms
+2018-12-24 15:30:33.775 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:30:34.026 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:30:34.053 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:30:34.055 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 15:30:34.058 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:30:34.059 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.749 seconds (JVM running for 2043.114)
+2018-12-24 15:30:34.062 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 15:31:32.296 [Thread-47] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:31:42.535 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:31:42.535 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:31:43.455 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:31:43.455 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:31:43.457 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2018-12-24 15:31:43.572 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:31:43.890 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:31:43.892 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:31:43.892 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:31:43.978 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:31:43.978 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1438 ms
+2018-12-24 15:31:44.456 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:31:45.055 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:31:45.133 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:31:45.135 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.685 seconds (JVM running for 2114.19)
+2018-12-24 15:31:45.156 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2018-12-24 15:31:46.838 [Thread-56] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:31:47.926 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:31:47.929 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:31:53.275 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 4788 (started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:31:53.282 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-24 15:31:54.560 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:31:54.568 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:31:54.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2018-12-24 15:31:55.504 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$9ac9f2d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:31:55.519 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53941383] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:31:56.743 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 15:33:16.528 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 15:33:16.529 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 15:33:16.537 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:33:16.537 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:33:19.127 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 3544 (started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:33:19.129 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-24 15:33:20.266 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:33:20.269 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:33:20.299 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2018-12-24 15:33:20.900 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$7c35e671] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:33:20.908 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3500071f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:33:21.585 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 15:38:07.221 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 15:38:07.221 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 15:38:07.233 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:38:07.234 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:38:07.732 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:38:07.732 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:38:07.734 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2018-12-24 15:38:07.835 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:38:07.992 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:38:07.994 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:38:07.994 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:38:08.014 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:38:08.014 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 776 ms
+2018-12-24 15:38:08.137 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:38:08.212 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:38:08.212 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-24 15:38:08.220 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 15:38:10.770 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:38:10.770 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:38:11.456 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:38:11.456 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:38:11.457 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2018-12-24 15:38:11.571 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:38:11.820 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:38:11.821 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:38:11.823 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:38:11.899 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:38:11.899 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1124 ms
+2018-12-24 15:38:12.084 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:38:12.662 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:38:12.664 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-24 15:38:12.740 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 15:38:16.740 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:38:16.741 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:38:17.428 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:38:17.428 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:38:17.432 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2018-12-24 15:38:17.575 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:38:17.764 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:38:17.765 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:38:17.765 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:38:17.803 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:38:17.803 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1053 ms
+2018-12-24 15:38:18.080 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:38:18.476 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:38:18.506 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:38:18.508 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.913 seconds (JVM running for 2507.563)
+2018-12-24 15:38:18.511 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 15:38:21.490 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 4608 (started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:38:21.492 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-24 15:38:22.846 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:38:22.849 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:38:22.882 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2018-12-24 15:38:23.472 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$dbc2ffc4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:38:23.481 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$948d2072] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:38:24.136 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 15:38:31.027 [Thread-65] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:38:31.582 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:38:31.582 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:39:01.023 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 15:39:01.024 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 15:39:01.068 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:39:01.069 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:39:01.818 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:39:01.818 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:39:01.819 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2018-12-24 15:39:01.974 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:39:02.165 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:39:02.166 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:39:02.166 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:39:02.195 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:39:02.196 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1112 ms
+2018-12-24 15:39:02.396 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:39:02.670 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:39:02.671 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-24 15:39:02.682 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-24 15:39:08.628 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:39:08.658 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:39:09.530 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:39:09.534 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:39:09.536 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2018-12-24 15:39:09.704 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bdf9ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:39:10.052 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:39:10.055 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:39:10.056 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:39:10.107 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:39:10.107 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1445 ms
+2018-12-24 15:39:10.450 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:39:11.103 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:39:11.173 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:39:11.173 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.742 seconds (JVM running for 2560.227)
+2018-12-24 15:39:11.181 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 15:39:15.522 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-MNCLG23 with PID 14748 (started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:39:15.524 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2018-12-24 15:39:16.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:39:16.858 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:39:16.901 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2018-12-24 15:39:17.509 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$7c35e671] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:39:17.519 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3500071f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:39:18.145 [main] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 15:39:18.203 [main] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 15:39:18.300 [main] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 15:39:19.293 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:39:20.325 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 5.586 seconds (JVM running for 6.877)
+2018-12-24 15:39:20.820 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:39:27.930 [Thread-83] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:39:28.481 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:39:28.482 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:39:49.581 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 15:39:49.582 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 15:39:49.592 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 5204 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:39:49.592 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:39:58.585 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 1828 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:39:58.603 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:39:58.741 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 15:39:58.742 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 15:39:59.752 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:39:59.755 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:39:59.790 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2018-12-24 15:40:00.189 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$5ed06cd7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:40:00.199 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$179a8d85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:40:00.658 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:40:00.675 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:40:00.684 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:40:00.685 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:40:00.692 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 15:40:00.782 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:40:00.782 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2040 ms
+2018-12-24 15:40:01.185 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 15:40:01.214 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 15:40:01.290 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 15:40:01.557 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:40:01.959 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:40:01.993 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:40:02.003 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 15:40:02.022 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:40:02.025 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.297 seconds (JVM running for 6.976)
+2018-12-24 15:40:27.969 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 15:40:27.969 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 15:40:27.982 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2018-12-24 15:40:27.992 [http-nio-8080-exec-1] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 15:40:28.021 [http-nio-8080-exec-1] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 15:44:03.017 [http-nio-8080-exec-4] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 15:44:03.019 [http-nio-8080-exec-4] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 15:44:15.432 [http-nio-8080-exec-5] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 15:44:15.433 [http-nio-8080-exec-5] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 15:49:56.782 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 13520 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 15:49:56.786 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 15:49:56.977 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 15:49:56.978 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 15:49:58.276 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 15:49:58.282 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 15:49:58.342 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2018-12-24 15:49:58.940 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$637e0ac0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:49:58.953 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c482b6e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 15:49:59.582 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 15:49:59.594 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:49:59.603 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 15:49:59.603 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 15:49:59.612 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 15:49:59.702 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 15:49:59.702 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2724 ms
+2018-12-24 15:50:00.132 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 15:50:00.159 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 15:51:44.588 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 15:51:44.856 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 15:51:45.250 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 15:51:45.293 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 15:51:45.305 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 15:51:45.324 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 15:51:45.330 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 109.341 seconds (JVM running for 112.749)
+2018-12-24 16:12:17.354 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:12:17.354 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:12:17.367 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2018-12-24 16:12:17.376 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 16:12:17.404 [http-nio-8080-exec-2] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:15:48.539 [Thread-23] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:15:49.003 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 13520 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:15:49.004 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:15:49.547 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:15:49.548 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:15:49.558 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2018-12-24 16:15:49.707 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$637e0ac0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:15:49.710 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c482b6e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:15:49.900 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:15:49.902 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:15:49.903 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:15:49.904 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:15:49.935 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:15:49.935 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 928 ms
+2018-12-24 16:15:50.063 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:15:50.065 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:15:50.098 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:15:50.283 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:15:50.667 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:15:50.713 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:15:50.715 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:15:50.719 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:15:50.727 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.803 seconds (JVM running for 1558.146)
+2018-12-24 16:15:50.750 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 16:26:13.311 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 9836 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:26:13.359 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:26:13.450 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:26:13.451 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:26:14.921 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:26:14.927 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:26:14.991 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2018-12-24 16:26:15.772 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$3cbc9dd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:26:15.790 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f586be87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:26:16.595 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:26:16.612 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:26:16.624 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:26:16.625 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:26:16.637 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:26:16.763 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:26:16.763 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3312 ms
+2018-12-24 16:26:16.820 [restartedMain] INFO  org.apache.catalina.core.StandardContext - Suspicious url pattern: "/aaa/**" in context [] - see sections 12.1 and 12.2 of the Servlet specification
+2018-12-24 16:26:17.235 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:26:17.262 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:26:17.317 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:26:17.543 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:26:17.933 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:26:17.975 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:26:17.988 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:26:18.006 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:26:18.009 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.527 seconds (JVM running for 7.441)
+2018-12-24 16:26:45.196 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:26:45.196 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:26:45.206 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2018-12-24 16:26:45.248 [http-nio-8080-exec-1] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:29:17.568 [http-nio-8080-exec-3] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:30:15.419 [http-nio-8080-exec-6] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:30:15.485 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-24 16:30:15.687 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-24 16:30:21.909 [http-nio-8080-exec-8] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:30:37.346 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 8100 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:30:37.348 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:30:37.509 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:30:37.510 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:30:38.353 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:30:38.356 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:30:38.390 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2018-12-24 16:30:38.833 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$1cff4a3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:30:38.843 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5c96aea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:30:39.370 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:30:39.386 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:30:39.398 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:30:39.399 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:30:39.409 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:30:39.519 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:30:39.519 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2009 ms
+2018-12-24 16:30:39.562 [restartedMain] INFO  org.apache.catalina.core.StandardContext - Suspicious url pattern: "/**" in context [] - see sections 12.1 and 12.2 of the Servlet specification
+2018-12-24 16:30:39.978 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:30:40.013 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:30:40.081 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:30:40.320 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:30:40.748 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:30:40.787 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:30:40.799 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:30:40.816 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:30:40.820 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.106 seconds (JVM running for 6.128)
+2018-12-24 16:30:55.555 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:30:55.555 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:30:55.570 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2018-12-24 16:30:55.609 [http-nio-8080-exec-1] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:31:23.032 [http-nio-8080-exec-3] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:31:28.870 [http-nio-8080-exec-4] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:31:28.946 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-24 16:31:29.175 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-24 16:32:44.637 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 1364 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:32:44.710 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:32:44.802 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:32:44.803 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:32:46.131 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:32:46.136 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:32:46.197 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2018-12-24 16:32:46.912 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$13986898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:32:46.924 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc628946] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:32:47.522 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:32:47.537 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:32:47.548 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:32:47.548 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:32:47.559 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:32:47.664 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:32:47.664 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2861 ms
+2018-12-24 16:32:47.701 [restartedMain] INFO  org.apache.catalina.core.StandardContext - Suspicious url pattern: "/**" in context [] - see sections 12.1 and 12.2 of the Servlet specification
+2018-12-24 16:32:48.110 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:32:48.136 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:32:48.193 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:32:48.417 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:32:48.798 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:32:48.833 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:32:48.844 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:32:48.863 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:32:48.867 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.924 seconds (JVM running for 6.807)
+2018-12-24 16:32:57.921 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:32:57.922 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:32:57.933 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2018-12-24 16:32:57.998 [http-nio-8080-exec-2] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:33:21.915 [http-nio-8080-exec-4] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:34:11.398 [Thread-17] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:34:11.962 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 1364 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:34:11.962 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:34:12.754 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:34:12.754 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:34:12.766 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2018-12-24 16:34:12.924 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$13986898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:34:12.927 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc628946] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:34:13.121 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:34:13.123 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:34:13.124 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:34:13.124 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:34:13.180 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:34:13.181 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1213 ms
+2018-12-24 16:34:13.209 [restartedMain] INFO  org.apache.catalina.core.StandardContext - Suspicious url pattern: "/**" in context [] - see sections 12.1 and 12.2 of the Servlet specification
+2018-12-24 16:34:13.324 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:34:13.326 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:34:13.351 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:34:13.500 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:34:13.839 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:34:13.924 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:34:13.927 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:34:13.931 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:34:13.938 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.081 seconds (JVM running for 91.879)
+2018-12-24 16:34:13.943 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 16:34:33.966 [http-nio-8080-exec-9] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:34:33.967 [http-nio-8080-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:34:33.974 [http-nio-8080-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-12-24 16:34:33.976 [http-nio-8080-exec-9] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:34:43.426 [http-nio-8080-exec-8] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:35:30.032 [Thread-25] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:35:30.507 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 1364 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:35:30.507 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:35:30.901 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:35:30.901 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:35:30.908 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-12-24 16:35:31.039 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$13986898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:35:31.042 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc628946] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:35:31.215 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:35:31.216 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:35:31.219 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:35:31.219 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:35:31.255 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:35:31.255 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 744 ms
+2018-12-24 16:35:31.282 [restartedMain] INFO  org.apache.catalina.core.StandardContext - Suspicious url pattern: "/**" in context [] - see sections 12.1 and 12.2 of the Servlet specification
+2018-12-24 16:35:31.379 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:35:31.381 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:35:31.405 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:35:31.558 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:35:31.775 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:35:31.808 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:35:31.810 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:35:31.814 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:35:31.816 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.366 seconds (JVM running for 169.756)
+2018-12-24 16:35:31.819 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 16:35:56.875 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 8268 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:35:56.879 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:35:57.043 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:35:57.044 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:35:58.388 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:35:58.392 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:35:58.446 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-24 16:35:59.039 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$c01d54fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:35:59.065 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78e775ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:35:59.641 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:35:59.659 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:35:59.668 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:35:59.668 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:35:59.677 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:35:59.769 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:35:59.770 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2726 ms
+2018-12-24 16:35:59.805 [restartedMain] INFO  org.apache.catalina.core.StandardContext - Suspicious url pattern: "/**" in context [] - see sections 12.1 and 12.2 of the Servlet specification
+2018-12-24 16:36:00.197 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:36:00.223 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:36:00.273 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:36:00.508 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:36:00.883 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:36:00.917 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:36:00.928 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:36:00.944 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:36:00.947 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.798 seconds (JVM running for 6.777)
+2018-12-24 16:36:06.090 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:36:06.090 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:36:06.100 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2018-12-24 16:36:06.137 [http-nio-8080-exec-1] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:36:12.212 [http-nio-8080-exec-4] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:38:03.082 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 1884 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:38:03.085 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:38:03.201 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:38:03.201 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:38:04.023 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:38:04.026 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:38:04.057 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2018-12-24 16:38:04.437 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$b65d7bab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:38:04.448 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6f279c59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:38:04.880 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:38:04.893 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:38:04.902 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:38:04.903 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:38:04.911 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:38:05.004 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:38:05.004 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1803 ms
+2018-12-24 16:38:05.440 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:38:05.465 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:38:05.514 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:38:05.789 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:38:06.187 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:38:06.226 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:38:06.236 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:38:06.254 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:38:06.257 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.94 seconds (JVM running for 6.119)
+2018-12-24 16:38:13.835 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:38:13.836 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:38:13.847 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2018-12-24 16:38:13.854 [http-nio-8080-exec-1] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 16:38:13.886 [http-nio-8080-exec-1] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:39:13.603 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 11000 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:39:13.606 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:39:13.760 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:39:13.760 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:39:14.914 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:39:14.919 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:39:14.975 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2018-12-24 16:39:15.710 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$2d36ef79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:39:15.729 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6011027] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:39:16.273 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:39:16.290 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:39:16.305 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:39:16.306 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:39:16.316 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:39:16.442 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:39:16.442 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2681 ms
+2018-12-24 16:39:16.944 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:39:16.971 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:39:17.023 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:39:17.272 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:39:17.648 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:39:17.683 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:39:17.694 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:39:17.714 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:39:17.718 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.795 seconds (JVM running for 6.666)
+2018-12-24 16:39:31.222 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:39:31.222 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:39:31.243 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2018-12-24 16:42:47.463 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 16:42:47.523 [http-nio-8080-exec-2] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:45:58.827 [Thread-16] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:45:59.246 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 11000 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:45:59.247 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:45:59.579 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:45:59.579 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:45:59.588 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2018-12-24 16:45:59.713 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$2d36ef79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:45:59.715 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6011027] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:45:59.868 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:45:59.870 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:45:59.871 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:45:59.871 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:45:59.914 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:45:59.914 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 663 ms
+2018-12-24 16:46:00.055 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:46:00.058 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:46:00.084 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:46:00.236 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:46:00.423 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:46:00.454 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:46:00.455 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:46:00.461 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:46:00.462 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.273 seconds (JVM running for 409.41)
+2018-12-24 16:46:00.466 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-12-24 16:46:06.912 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 14768 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:46:06.914 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:46:07.004 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:46:07.005 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:46:08.439 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:46:08.443 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:46:08.491 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2018-12-24 16:46:08.994 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$3270a79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:46:09.004 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bbf12b27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:46:09.478 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:46:09.492 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:46:09.501 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:46:09.502 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:46:09.511 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:46:09.604 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:46:09.604 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2599 ms
+2018-12-24 16:46:10.024 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:46:10.050 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:46:10.098 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:46:10.314 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:46:10.711 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:46:10.745 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:46:10.755 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:46:10.772 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:46:10.776 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.787 seconds (JVM running for 7.128)
+2018-12-24 16:46:20.202 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:46:20.202 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:46:20.213 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2018-12-24 16:46:20.254 [http-nio-8080-exec-1] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:46:48.014 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 14696 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:46:48.018 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:46:48.263 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:46:48.264 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:46:49.802 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:46:49.806 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:46:49.850 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2018-12-24 16:46:50.326 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$1b1930f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:46:50.342 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3e351a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:46:51.164 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:46:51.187 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:46:51.200 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:46:51.201 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:46:51.218 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:46:51.340 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:46:51.340 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3076 ms
+2018-12-24 16:46:51.916 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:46:51.958 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:46:52.025 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:46:52.290 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:46:52.768 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:46:52.819 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:46:52.831 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:46:52.853 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:46:52.856 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.708 seconds (JVM running for 7.692)
+2018-12-24 16:47:26.665 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:47:26.666 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:47:26.682 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2018-12-24 16:47:26.746 [http-nio-8080-exec-2] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 16:48:03.270 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 7544 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 16:48:03.272 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 16:48:03.429 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-24 16:48:03.429 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-24 16:48:04.373 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 16:48:04.376 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 16:48:04.405 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2018-12-24 16:48:04.810 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$a174ecb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:48:04.818 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a3f0d61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 16:48:05.292 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 16:48:05.305 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:48:05.313 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 16:48:05.313 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 16:48:05.321 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files (x86)\Java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Program Files\Git\bin;G:\gradle\bin;G:\software\apache-maven-3.3.3\bin;F:\Program Files (x86)\Java\java1.8\bin;G:\software\putty\;G:\software\tortoiseSvn\bin;G:\software\Git\cmd;G:\software\node\;G:\software\redis\;C:\Users\cs\AppData\Local\Microsoft\WindowsApps;C:\Users\cs\AppData\Roaming\npm;.]
+2018-12-24 16:48:05.410 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 16:48:05.411 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1981 ms
+2018-12-24 16:48:05.867 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - Create JedisConnectionFactory successful
+2018-12-24 16:48:05.898 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - JedisPool init successful，host -> [127.0.0.1]；port -> [6379]
+2018-12-24 16:48:05.967 [restartedMain] INFO  com.example.demo.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2018-12-24 16:48:06.182 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-24 16:48:06.533 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 16:48:06.567 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-24 16:48:06.580 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 16:48:06.597 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-24 16:48:06.600 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.112 seconds (JVM running for 6.297)
+2018-12-24 16:48:36.067 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-24 16:48:36.068 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-24 16:48:36.084 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2018-12-24 16:48:36.095 [http-nio-8080-exec-2] INFO  com.example.demo.filter.MyFilter - http://localhost:8080//test/getOne-----------------------
+2018-12-24 16:48:36.139 [http-nio-8080-exec-2] INFO  com.example.demo.rest.FirstTestController - load1
+2018-12-24 18:37:00.830 [Thread-14] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-24 18:37:01.496 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-MNCLG23 with PID 7544 (E:\base-workspace\springboot1\target\classes started by cs in E:\base-workspace\springboot1)
+2018-12-24 18:37:01.496 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-24 18:37:02.140 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-24 18:37:02.140 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-24 18:37:02.148 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-12-24 18:37:02.308 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.example.demo.config.RedisConfiguration$$EnhancerBySpringCGLIB$$a174ecb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 18:37:02.312 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a3f0d61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 18:37:02.496 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-24 18:37:02.500 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-24 18:37:02.510 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 18:37:02.510 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-24 18:37:02.565 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 18:37:02.565 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1062 ms
