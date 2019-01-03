@@ -1,6 +1,7 @@
 package com.example.demo.rest;
 
 
+import com.example.demo.config.FdfsConfiguration;
 import com.example.demo.entity.ThirdInfo;
 import com.example.demo.service.ThirdInfoService;
 import com.example.demo.util.ApplicationRunTimeExeption;
@@ -15,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.io.File;
+
 @Controller
 @RequestMapping(value = "/test")
 public class FirstTestController {
@@ -23,6 +26,9 @@ public class FirstTestController {
 
     @Autowired
     ThirdInfoService thirdInfoService;
+
+    @Autowired
+    FdfsConfiguration fdfsConfiguration;
 
     @RequestMapping(value = "getOne")
     @ResponseBody
@@ -37,5 +43,19 @@ public class FirstTestController {
     @ResponseBody
     public Integer getTwe(){
         return 1;
+    }
+
+
+    @RequestMapping(value = "fdfs_upload")
+    @ResponseBody
+    public String fdfsUpload() throws ApplicationRunTimeExeption{
+        File file = new File("E:\\flash.txt");
+        return fdfsConfiguration.saveFile(file,file.getParent());
+    }
+
+    @RequestMapping(value = "fdfs_delte")
+    @ResponseBody
+    public boolean fdfsDelete(String file_url)throws ApplicationRunTimeExeption{
+        return fdfsConfiguration.deleteFile(file_url);
     }
 }
