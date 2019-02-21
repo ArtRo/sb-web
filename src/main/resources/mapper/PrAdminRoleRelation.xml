@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.PrAdminRoleRelationDao">
+
+  <resultMap id="BaseResultMap" type="com.example.demo.entity.PrAdminRoleRelation">
+			<id column="id" jdbcType="INT" property="id" />
+			<result column="admin_id" jdbcType="INT" property="adminId" />
+			<result column="role_id" jdbcType="INT" property="roleId" />
+  </resultMap>
+  
+  <sql id="Base_Column_List">
+		id,
+		admin_id,
+		role_id
+  </sql>  
+  
+  <select id="selectByEntity" parameterType="com.example.demo.entity.PrAdminRoleRelation" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from pr_admin_role_relation
+        <trim prefix="WHERE" prefixOverrides="AND | OR">
+		  <if test="id != null">
+		    AND	id = #{id,jdbcType=INT}
+		  </if>		
+		  <if test="adminId != null">
+		    AND	admin_id = #{adminId,jdbcType=INT}
+		  </if>		
+		  <if test="roleId != null">
+		    AND	role_id = #{roleId,jdbcType=INT}
+		  </if>		
+　　</trim>
+  </select>    
+  
+   <select id="selectById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from pr_admin_role_relation
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+         AND id = #{id,jdbcType=INT}
+    </trim>
+  </select>  
+  
+ <delete id="deleteById" parameterType="java.lang.Integer">
+    delete from pr_admin_role_relation
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+        AND id = #{id,jdbcType=INT}
+    </trim>
+  </delete>    
+  
+  <insert id="insert" parameterType="com.example.demo.entity.PrAdminRoleRelation">
+    insert into pr_admin_role_relation
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+		  <if test="id != null">
+			id,
+		  </if>		
+		  <if test="adminId != null">
+			admin_id,
+		  </if>		
+		  <if test="roleId != null">
+			role_id,
+		  </if>		
+    </trim>  
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=INT},
+			</if>
+			<if test="adminId != null">
+				#{adminId,jdbcType=INT},
+			</if>
+			<if test="roleId != null">
+				#{roleId,jdbcType=INT},
+			</if>
+    </trim>
+  </insert>
+  
+  <update id="updateByEntity" parameterType="com.example.demo.entity.PrAdminRoleRelation">
+    update pr_admin_role_relation 
+    <set>
+			<if test="id != null">
+				id = #{id,jdbcType=INT},
+			</if>
+			<if test="adminId != null">
+				admin_id = #{adminId,jdbcType=INT},
+			</if>
+			<if test="roleId != null">
+				role_id = #{roleId,jdbcType=INT},
+			</if>
+   
+    </set>
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+         AND id = #{id,jdbcType=INT}
+    </trim>
+  </update>   
+  
+</mapper>

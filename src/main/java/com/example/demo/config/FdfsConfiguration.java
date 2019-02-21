@@ -18,7 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
 
-@Component
+// TODO fdfs 文件管理配置
 @PropertySource("classpath:app.properties")
 @ConfigurationProperties(prefix = "fdfs")
 public class FdfsConfiguration {

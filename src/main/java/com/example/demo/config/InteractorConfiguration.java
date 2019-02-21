@@ -7,6 +7,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import javax.annotation.Resource;
 
+
+//TODO 拦截器的配置
 @Configuration
 public class InteractorConfiguration implements WebMvcConfigurer {
 

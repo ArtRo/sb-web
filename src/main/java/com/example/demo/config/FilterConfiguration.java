@@ -7,7 +7,9 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.servlet.Filter;
 
+//TODO 使用FilterRegistrationBean 配置fliter  目前没有用到  用的是webFliter 注入的方式
 //@Configuration
+@Deprecated
 public class FilterConfiguration {
 
 //    @Bean

@@ -11,6 +11,8 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestResponseBody
 import java.util.ArrayList;
 import java.util.List;
 
+//TODO 返回值统一处理
+
 @Configuration
 public class RestReturnValueHandlerConfigurer implements InitializingBean {
     @Autowired

@@ -11,10 +11,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.HashMap;
 import java.util.Map;
 
+//TODO 全局异常处理
 @ControllerAdvice
-public class ExceptionController {
+public class ExceptionConfig {
 
-    Logger logger = LoggerFactory.getLogger(ExceptionController.class);
+    Logger logger = LoggerFactory.getLogger(ExceptionConfig.class);
 
     @ResponseBody
     @ExceptionHandler(value = Exception.class)

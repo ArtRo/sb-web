@@ -34,7 +34,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-
+//TODO redis 配置
 @Configuration
 public class RedisConfiguration extends CachingConfigurerSupport {
 

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.PrFuncsDao">
+
+  <resultMap id="BaseResultMap" type="com.example.demo.entity.PrFuncs">
+			<id column="id" jdbcType="BIGINT" property="id" />
+			<result column="parent_id" jdbcType="BIGINT" property="parentId" />
+			<result column="name" jdbcType="VARCHAR" property="name" />
+			<result column="value" jdbcType="VARCHAR" property="value" />
+			<result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+			<result column="is_del" jdbcType="INTEGER" property="isDel" />
+			<result column="request_url" jdbcType="VARCHAR" property="requestUrl" />
+			<result column="weight" jdbcType="INTEGER" property="weight" />
+  </resultMap>
+  
+  <sql id="Base_Column_List">
+		id,
+		parent_id,
+		name,
+		value,
+		create_time,
+		is_del,
+		request_url,
+		weight
+  </sql>  
+  
+  <select id="selectByEntity" parameterType="com.example.demo.entity.PrFuncs" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from pr_funcs
+        <trim prefix="WHERE" prefixOverrides="AND | OR">
+		  <if test="id != null">
+		    AND	id = #{id,jdbcType=BIGINT}
+		  </if>		
+		  <if test="parentId != null">
+		    AND	parent_id = #{parentId,jdbcType=BIGINT}
+		  </if>		
+		  <if test="name != null">
+		    AND	name = #{name,jdbcType=VARCHAR}
+		  </if>		
+		  <if test="value != null">
+		    AND	value = #{value,jdbcType=VARCHAR}
+		  </if>		
+		  <if test="createTime != null">
+		    AND	create_time = #{createTime,jdbcType=TIMESTAMP}
+		  </if>		
+		  <if test="isDel != null">
+		    AND	is_del = #{isDel,jdbcType=INTEGER}
+		  </if>		
+		  <if test="requestUrl != null">
+		    AND	request_url = #{requestUrl,jdbcType=VARCHAR}
+		  </if>		
+		  <if test="weight != null">
+		    AND	weight = #{weight,jdbcType=INTEGER}
+		  </if>		
+　　</trim>
+  </select>    
+  
+   <select id="selectById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from pr_funcs
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+         AND id = #{id,jdbcType=BIGINT}
+    </trim>
+  </select>  
+  
+ <delete id="deleteById" parameterType="java.lang.Integer">
+    delete from pr_funcs
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+        AND id = #{id,jdbcType=BIGINT}
+    </trim>
+  </delete>    
+  
+  <insert id="insert" parameterType="com.example.demo.entity.PrFuncs">
+    insert into pr_funcs
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+		  <if test="id != null">
+			id,
+		  </if>		
+		  <if test="parentId != null">
+			parent_id,
+		  </if>		
+		  <if test="name != null">
+			name,
+		  </if>		
+		  <if test="value != null">
+			value,
+		  </if>		
+		  <if test="createTime != null">
+			create_time,
+		  </if>		
+		  <if test="isDel != null">
+			is_del,
+		  </if>		
+		  <if test="requestUrl != null">
+			request_url,
+		  </if>		
+		  <if test="weight != null">
+			weight,
+		  </if>		
+    </trim>  
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=BIGINT},
+			</if>
+			<if test="parentId != null">
+				#{parentId,jdbcType=BIGINT},
+			</if>
+			<if test="name != null">
+				#{name,jdbcType=VARCHAR},
+			</if>
+			<if test="value != null">
+				#{value,jdbcType=VARCHAR},
+			</if>
+			<if test="createTime != null">
+				#{createTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="isDel != null">
+				#{isDel,jdbcType=INTEGER},
+			</if>
+			<if test="requestUrl != null">
+				#{requestUrl,jdbcType=VARCHAR},
+			</if>
+			<if test="weight != null">
+				#{weight,jdbcType=INTEGER},
+			</if>
+    </trim>
+  </insert>
+  
+  <update id="updateByEntity" parameterType="com.example.demo.entity.PrFuncs">
+    update pr_funcs 
+    <set>
+			<if test="id != null">
+				id = #{id,jdbcType=BIGINT},
+			</if>
+			<if test="parentId != null">
+				parent_id = #{parentId,jdbcType=BIGINT},
+			</if>
+			<if test="name != null">
+				name = #{name,jdbcType=VARCHAR},
+			</if>
+			<if test="value != null">
+				value = #{value,jdbcType=VARCHAR},
+			</if>
+			<if test="createTime != null">
+				create_time = #{createTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="isDel != null">
+				is_del = #{isDel,jdbcType=INTEGER},
+			</if>
+			<if test="requestUrl != null">
+				request_url = #{requestUrl,jdbcType=VARCHAR},
+			</if>
+			<if test="weight != null">
+				weight = #{weight,jdbcType=INTEGER},
+			</if>
+   
+    </set>
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+         AND id = #{id,jdbcType=BIGINT}
+    </trim>
+  </update>
+
+  <select id="getFuncsByAdminId" resultMap="BaseResultMap">
+	  SELECT
+			*
+		FROM
+			pr_funcs pf
+		LEFT JOIN pr_role_func_relation prfr ON pf.id = prfr.func_id
+		LEFT JOIN (
+			SELECT
+				pr.id roleId
+			FROM
+				pr_role pr
+			INNER JOIN pr_admin_role_relation parr ON pr.id = parr.role_id
+			INNER JOIN admin_user au ON au.id = parr.admin_id
+			WHERE
+				au.is_del = 1
+			AND au.`status` = 1
+			AND pr.`status` = 1
+			au.id = #{adminId}
+		) prrole ON prrole.roleId = prfr.role_id
+		WHERE
+	pf.is_del = 1
+  </select>
+  
+</mapper>

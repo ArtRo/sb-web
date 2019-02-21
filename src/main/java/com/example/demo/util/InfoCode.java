@@ -2,6 +2,8 @@ package com.example.demo.util;
 
 public enum InfoCode {
 
+    ACCOUNT_OR_PASSWORD_ERROR(401,"账号密码异常"),
+
     SERVICE_ORRER(404,"服务器异常"),
 
     FILE_NOT_FOUNT(405,"文件未找到"),
@@ -9,6 +11,8 @@ public enum InfoCode {
     FILE_UPLOAD_FDFS_FAIL(405,"文件上传到fdfs失败"),
 
     FILE_DELETE_FDFS_FAIL(406,"fdfs文件删除失败"),
+
+    PARAMETER_ERROR(633,"参数异常"),
 
 
     REQUEST_OK(200,"请求成功");

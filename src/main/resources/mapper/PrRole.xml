@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.PrRoleDao">
+
+  <resultMap id="BaseResultMap" type="com.example.demo.entity.PrRole">
+			<id column="id" jdbcType="INTEGER" property="id" />
+			<result column="name" jdbcType="VARCHAR" property="name" />
+			<result column="weight" jdbcType="INTEGER" property="weight" />
+			<result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+			<result column="status" jdbcType="TINYINT" property="status" />
+			<result column="description" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  
+  <sql id="Base_Column_List">
+		id,
+		name,
+		weight,
+		create_time,
+		status,
+		description
+  </sql>  
+  
+  <select id="selectByEntity" parameterType="com.example.demo.entity.PrRole" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from pr_role
+        <trim prefix="WHERE" prefixOverrides="AND | OR">
+		  <if test="id != null">
+		    AND	id = #{id,jdbcType=INTEGER}
+		  </if>		
+		  <if test="name != null">
+		    AND	name = #{name,jdbcType=VARCHAR}
+		  </if>		
+		  <if test="weight != null">
+		    AND	weight = #{weight,jdbcType=INTEGER}
+		  </if>		
+		  <if test="createTime != null">
+		    AND	create_time = #{createTime,jdbcType=TIMESTAMP}
+		  </if>		
+		  <if test="status != null">
+		    AND	status = #{status,jdbcType=TINYINT}
+		  </if>		
+		  <if test="description != null">
+		    AND	description = #{description,jdbcType=VARCHAR}
+		  </if>		
+　　</trim>
+  </select>    
+  
+   <select id="selectById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from pr_role
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+         AND id = #{id,jdbcType=INTEGER}
+    </trim>
+  </select>  
+  
+ <delete id="deleteById" parameterType="java.lang.Integer">
+    delete from pr_role
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+        AND id = #{id,jdbcType=INTEGER}
+    </trim>
+  </delete>    
+  
+  <insert id="insert" parameterType="com.example.demo.entity.PrRole">
+    insert into pr_role
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+		  <if test="id != null">
+			id,
+		  </if>		
+		  <if test="name != null">
+			name,
+		  </if>		
+		  <if test="weight != null">
+			weight,
+		  </if>		
+		  <if test="createTime != null">
+			create_time,
+		  </if>		
+		  <if test="status != null">
+			status,
+		  </if>		
+		  <if test="description != null">
+			description,
+		  </if>		
+    </trim>  
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=INTEGER},
+			</if>
+			<if test="name != null">
+				#{name,jdbcType=VARCHAR},
+			</if>
+			<if test="weight != null">
+				#{weight,jdbcType=INTEGER},
+			</if>
+			<if test="createTime != null">
+				#{createTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="status != null">
+				#{status,jdbcType=TINYINT},
+			</if>
+			<if test="description != null">
+				#{description,jdbcType=VARCHAR},
+			</if>
+    </trim>
+  </insert>
+  
+  <update id="updateByEntity" parameterType="com.example.demo.entity.PrRole">
+    update pr_role 
+    <set>
+			<if test="id != null">
+				id = #{id,jdbcType=INTEGER},
+			</if>
+			<if test="name != null">
+				name = #{name,jdbcType=VARCHAR},
+			</if>
+			<if test="weight != null">
+				weight = #{weight,jdbcType=INTEGER},
+			</if>
+			<if test="createTime != null">
+				create_time = #{createTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="status != null">
+				status = #{status,jdbcType=TINYINT},
+			</if>
+			<if test="description != null">
+				description = #{description,jdbcType=VARCHAR},
+			</if>
+   
+    </set>
+    <trim prefix="WHERE" prefixOverrides="AND | OR">
+         AND id = #{id,jdbcType=INTEGER}
+    </trim>
+  </update>   
+  
+</mapper>
