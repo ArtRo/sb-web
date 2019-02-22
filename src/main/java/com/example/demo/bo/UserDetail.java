@@ -3,20 +3,18 @@ package com.example.demo.bo;
 import com.example.demo.entity.AdminUser;
 import com.example.demo.entity.PrFuncs;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Created by dhf_ndm on 2019/2/21
  * the previous bug derived from the previous
  */
 public class UserDetail implements UserDetails {
-
-    private String password;
-
-    private String username;
 
     private AdminUser adminUser;
 
@@ -31,17 +29,19 @@ public class UserDetail implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        return prFuncs.stream()
+                .map(prFunc->{return  new SimpleGrantedAuthority(prFunc.getValue());})
+                .collect(Collectors.toList());
     }
 
     @Override
     public String getPassword() {
-        return this.password;
+        return this.adminUser.getPassword();
     }
 
     @Override
     public String getUsername() {
-        return this.username;
+        return this.adminUser.getUsername();
     }
 
     @Override

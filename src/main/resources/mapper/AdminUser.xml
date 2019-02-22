@@ -82,7 +82,7 @@
     </trim>
   </delete>    
   
-  <insert id="insert" parameterType="com.example.demo.entity.AdminUser">
+  <insert id="insert" parameterType="com.example.demo.entity.AdminUser" useGeneratedKeys="true" keyProperty="id">
     insert into admin_user
     <trim prefix="(" suffix=")" suffixOverrides=",">
 		  <if test="id != null">
@@ -127,7 +127,7 @@
 				#{password,jdbcType=VARCHAR},
 			</if>
 			<if test="status != null">
-				#{status,jdbcType=TINYINT},
+				#{status,jdbcType=INTEGER},
 			</if>
 			<if test="image != null">
 				#{image,jdbcType=VARCHAR},
@@ -136,7 +136,7 @@
 				#{signature,jdbcType=VARCHAR},
 			</if>
 			<if test="isDel != null">
-				#{isDel,jdbcType=TINYINT},
+				#{isDel,jdbcType=INTEGER},
 			</if>
 			<if test="nickname != null">
 				#{nickname,jdbcType=VARCHAR},
@@ -163,7 +163,7 @@
 				password = #{password,jdbcType=VARCHAR},
 			</if>
 			<if test="status != null">
-				status = #{status,jdbcType=TINYINT},
+				status = #{status,jdbcType=INTEGER},
 			</if>
 			<if test="image != null">
 				image = #{image,jdbcType=VARCHAR},
@@ -172,7 +172,7 @@
 				signature = #{signature,jdbcType=VARCHAR},
 			</if>
 			<if test="isDel != null">
-				is_del = #{isDel,jdbcType=TINYINT},
+				is_del = #{isDel,jdbcType=INTEGER},
 			</if>
 			<if test="nickname != null">
 				nickname = #{nickname,jdbcType=VARCHAR},
@@ -200,5 +200,45 @@
 		AND au.is_del = 1
 		AND au.`status` = 1
 	</select>
-  
+
+
+	<update id="updateEntityByUsername">
+		update admin_user
+		<set>
+			<if test="id != null">
+				id = #{id,jdbcType=INTEGER},
+			</if>
+			<if test="username != null">
+				username = #{username,jdbcType=VARCHAR},
+			</if>
+			<if test="password != null">
+				password = #{password,jdbcType=VARCHAR},
+			</if>
+			<if test="status != null">
+				status = #{status,jdbcType=INTEGER},
+			</if>
+			<if test="image != null">
+				image = #{image,jdbcType=VARCHAR},
+			</if>
+			<if test="signature != null">
+				signature = #{signature,jdbcType=VARCHAR},
+			</if>
+			<if test="isDel != null">
+				is_del = #{isDel,jdbcType=INTEGER},
+			</if>
+			<if test="nickname != null">
+				nickname = #{nickname,jdbcType=VARCHAR},
+			</if>
+			<if test="createTime != null">
+				create_time = #{createTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="updateTime != null">
+				update_time = #{updateTime,jdbcType=BIGINT},
+			</if>
+
+		</set>
+		<trim prefix="WHERE" prefixOverrides="AND | OR">
+			AND username = #{username}
+		</trim>
+	</update>
 </mapper>

@@ -164,13 +164,13 @@
 
   <select id="getFuncsByAdminId" resultMap="BaseResultMap">
 	  SELECT
-			*
+			pf.*
 		FROM
 			pr_funcs pf
 		LEFT JOIN pr_role_func_relation prfr ON pf.id = prfr.func_id
 		LEFT JOIN (
 			SELECT
-				pr.id roleId
+				pr.id roleId,au.id adminId
 			FROM
 				pr_role pr
 			INNER JOIN pr_admin_role_relation parr ON pr.id = parr.role_id
@@ -179,10 +179,10 @@
 				au.is_del = 1
 			AND au.`status` = 1
 			AND pr.`status` = 1
-			au.id = #{adminId}
 		) prrole ON prrole.roleId = prfr.role_id
 		WHERE
 	pf.is_del = 1
+	AND prrole.adminId = #{adminId}
   </select>
   
 </mapper>

@@ -17,5 +17,7 @@ public interface AdminUserDao {
     int updateByEntity(AdminUser record);
 
     AdminUser getAdminUserByUsername(String username);
+
+    int updateEntityByUsername(AdminUser record);
     
 }

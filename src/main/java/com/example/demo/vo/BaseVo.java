@@ -35,23 +35,26 @@ public class BaseVo {
         return data;
     }
 
-    public void setData(Object data) {
+    public BaseVo setData(Object data) {
         this.data = data;
+        return this;
     }
 
     public Integer getCode() {
         return code;
     }
 
-    public void setCode(Integer code) {
+    public BaseVo setCode(Integer code) {
         this.code = code;
+        return this;
     }
 
     public String getMsg() {
         return msg;
     }
 
-    public void setMsg(String msg) {
+    public BaseVo setMsg(String msg) {
         this.msg = msg;
+        return this;
     }
 }

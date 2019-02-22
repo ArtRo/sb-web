@@ -1,6 +1,8 @@
 package com.example.demo.config;
 
 import com.example.demo.bo.UserDetail;
+import com.example.demo.compenent.RestAuthenticationEntryPoint;
+import com.example.demo.compenent.RestfulAccessDeniedHandler;
 import com.example.demo.entity.AdminUser;
 import com.example.demo.entity.PrFuncs;
 import com.example.demo.filter.JwtAuthenticationTokenFilter;
@@ -8,19 +10,23 @@ import com.example.demo.service.AdminUserService;
 import com.example.demo.service.PrFuncsService;
 import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.util.InfoCode;
+import com.example.demo.util.PasswordEncoderUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -42,6 +48,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Autowired
     PrFuncsService prFuncsService;
+
+    @Autowired
+    RestAuthenticationEntryPoint restAuthenticationEntryPoint;
+
+    @Autowired
+    RestfulAccessDeniedHandler restfulAccessDeniedHandler;
 
     protected void configure(HttpSecurity http) throws Exception {
 
@@ -75,29 +87,45 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.headers().cacheControl();
         // 添加JWT filter
         http.addFilterBefore(jwtAuthenticationTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+
+        //添加自定义未授权和未登录结果返回
+        http.exceptionHandling()
+                .accessDeniedHandler(restfulAccessDeniedHandler)
+                .authenticationEntryPoint(restAuthenticationEntryPoint);
     }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(getUserDetailsService());
+        auth.userDetailsService(getUserDetailsService())
+        .passwordEncoder(passwordEncoder());
     }
 
 
     @Bean
-    public UserDetailsService getUserDetailsService(){
-        return username->{
+    public UserDetailsService getUserDetailsService() {
+        return username -> {
             AdminUser adminUser = adminUserService.getAdminUserByUsername(username);
-            if(null != adminUser){
+            if (null != adminUser) {
                 List<PrFuncs> prfuncs = prFuncsService.getPrfuncsByAdminId(adminUser.getId());
-                return new UserDetail(adminUser,prfuncs);
+                return new UserDetail(adminUser, prfuncs);
             }
             throw new ApplicationRunTimeExeption(InfoCode.ACCOUNT_OR_PASSWORD_ERROR);
         };
     }
 
     @Bean
-    public JwtAuthenticationTokenFilter jwtAuthenticationTokenFilter(){
+    public PasswordEncoder passwordEncoder(){
+        return new PasswordEncoderUtil();
+    }
+
+    @Bean
+    public JwtAuthenticationTokenFilter jwtAuthenticationTokenFilter() {
         return new JwtAuthenticationTokenFilter();
+    }
+
+    @Bean
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
+        return configuration.getAuthenticationManager();
     }
 
     /**

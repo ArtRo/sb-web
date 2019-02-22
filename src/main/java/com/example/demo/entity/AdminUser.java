@@ -1,5 +1,7 @@
 package com.example.demo.entity;
 
+import com.example.demo.validator.NotNull;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -13,8 +15,10 @@ public class AdminUser implements Serializable{
     /*   */
     private Integer id;
     /*   */
+    @NotNull
     private String username;
     /*   */
+    @NotNull
     private String password;
     /* 状态 0 禁用 1 启用  */
     private Integer status;

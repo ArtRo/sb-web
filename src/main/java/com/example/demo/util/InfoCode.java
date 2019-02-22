@@ -4,6 +4,10 @@ public enum InfoCode {
 
     ACCOUNT_OR_PASSWORD_ERROR(401,"账号密码异常"),
 
+    INSERT_DATA_ERROR(407,"添加数据异常"),
+
+    USER_HAS_EXIST(408,"该用户已存在"),
+
     SERVICE_ORRER(404,"服务器异常"),
 
     FILE_NOT_FOUNT(405,"文件未找到"),

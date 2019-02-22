@@ -1,4 +1,4 @@
-package com.example.demo.rest.listener;
+package com.example.demo.util.listener;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.messaging.handler.annotation.SendTo;

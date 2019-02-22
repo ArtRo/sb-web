@@ -1,6 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.entity.AdminUser;
+import com.example.demo.vo.BaseVo;
 
 import java.util.List;
 
@@ -17,5 +18,8 @@ public interface AdminUserService {
     int updateByEntity(AdminUser record);
 
     AdminUser getAdminUserByUsername(String username);
-    
+
+    Object registerAdmin(AdminUser adminUser);
+
+    Object loginAdmin(AdminUser adminUser);
 }
