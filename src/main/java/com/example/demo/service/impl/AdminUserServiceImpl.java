@@ -7,6 +7,7 @@ import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.util.InfoCode;
 import com.example.demo.util.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -21,6 +22,11 @@ import java.util.List;
 
 @Service
 public class AdminUserServiceImpl implements AdminUserService {
+
+    @Value("${jwt.tokenHeader}")
+    private String tokenHeader;
+    @Value("${jwt.tokenHead}")
+    private String tokenHead;
 
     @Autowired
     private AuthenticationManager authenticationManager;
@@ -95,7 +101,8 @@ public class AdminUserServiceImpl implements AdminUserService {
         updateLoginTime(userDetails.getUsername());
         HashMap<String, String> map = new HashMap<>();
         map.put("token",token);
-        map.put("tokenHeader","beatiful ");
+        map.put("tokenHeader",tokenHeader);
+        map.put("tokenHead",tokenHead);
         return map;
     }
 

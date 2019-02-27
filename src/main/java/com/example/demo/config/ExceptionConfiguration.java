@@ -11,8 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 //TODO 这种形式是返回的modelAndView 在实际的开发过程中 用到的很少 需要返回json形式
-@Deprecated
-@Configuration
+//@Configuration
 public class ExceptionConfiguration implements HandlerExceptionResolver {
     @Override
     public ModelAndView resolveException(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) {

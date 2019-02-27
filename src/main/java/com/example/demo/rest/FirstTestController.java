@@ -18,6 +18,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -35,7 +36,7 @@ public class FirstTestController {
     @Autowired
     FdfsConfiguration fdfsConfiguration;
 
-    @RequestMapping(value = "/getOne")
+    @RequestMapping(value = "/getOne", method = RequestMethod.GET)
     @ResponseBody
     @PreAuthorize("hasAuthority('adddd')")
 //    @Cacheable(value = "thirdInfo")

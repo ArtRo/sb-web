@@ -8,7 +8,6 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
 
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -24,10 +23,10 @@ public class RestAuthenticationEntryPoint implements AuthenticationEntryPoint {
     Gson gson;
 
     @Override
-    public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException, ServletException {
+    public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException {
         response.setCharacterEncoding("UTF-8");
         response.setContentType("application/json");
-        response.getWriter().println(gson.toJson(new BaseVo(InfoCode.SERVICE_ORRER).setMsg(authException.getMessage())));
+        response.getWriter().println(gson.toJson(new BaseVo(InfoCode.TOKEN_FAILED_OR_NOT_LOGIN)));
         response.getWriter().flush();
     }
 }

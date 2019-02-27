@@ -14,7 +14,7 @@ import org.springframework.cache.annotation.EnableCaching;
 @SpringBootApplication
 @MapperScan("com.example.demo.dao")
 @EnableCaching
-@ServletComponentScan(basePackages = {"com.example.demo.filter"})
+//@ServletComponentScan(basePackages = {"com.example.demo.filter"})
 @EnableConfigurationProperties({FdfsConfiguration.class})
 public class DemoApplication {
 

@@ -6,6 +6,10 @@ public enum InfoCode {
 
     INSERT_DATA_ERROR(407,"添加数据异常"),
 
+    AUTH_FAILED(612,"权限不足 无法访问"),
+
+    TOKEN_FAILED_OR_NOT_LOGIN(613,"未登录 或者token失效"),
+
     USER_HAS_EXIST(408,"该用户已存在"),
 
     SERVICE_ORRER(404,"服务器异常"),
