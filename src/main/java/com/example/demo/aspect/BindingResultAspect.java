@@ -49,8 +49,7 @@ public class BindingResultAspect {
                 if(a instanceof BindingResult){
                     BindingResult br = (BindingResult) a;
                     if(br.hasErrors()){
-                        System.out.println(br.getFieldError().getDefaultMessage());
-                        throw new ApplicationRunTimeExeption(br.getFieldError().getDefaultMessage());
+                       throw new ApplicationRunTimeExeption(InfoCode.PARAMETER_ERROR);
                     }
                 }
             }

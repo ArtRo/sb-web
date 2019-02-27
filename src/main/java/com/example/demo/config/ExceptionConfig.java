@@ -29,13 +29,9 @@ public class ExceptionConfig {
             mav.put("code", arte.getInfoCode().getCode());
             mav.put("msg", arte.getInfoCode().getDesc());
         } else if(ex instanceof AccessDeniedException){
-            ex.printStackTrace();
-            mav.put("code", InfoCode.AUTH_FAILED.getCode());
-            mav.put("msg", InfoCode.AUTH_FAILED.getDesc());
+            return null;
         } else if(ex instanceof AuthenticationException){
-            ex.printStackTrace();
-            mav.put("code", InfoCode.TOKEN_FAILED_OR_NOT_LOGIN.getCode());
-            mav.put("msg", InfoCode.TOKEN_FAILED_OR_NOT_LOGIN.getDesc());
+            return null;
         } else {
             ex.printStackTrace();
             mav.put("code", InfoCode.SERVICE_ORRER.getCode());

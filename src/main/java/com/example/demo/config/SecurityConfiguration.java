@@ -1,8 +1,10 @@
 package com.example.demo.config;
 
 import com.example.demo.bo.UserDetail;
+import com.example.demo.compenent.CustomMetadataSource;
 import com.example.demo.compenent.RestAuthenticationEntryPoint;
 import com.example.demo.compenent.RestfulAccessDeniedHandler;
+import com.example.demo.compenent.UrlAccessDecisionManager;
 import com.example.demo.entity.AdminUser;
 import com.example.demo.entity.PrFuncs;
 import com.example.demo.filter.JwtAuthenticationTokenFilter;
@@ -49,6 +51,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     PrFuncsService prFuncsService;
 
     @Autowired
+    CustomMetadataSource metadataSource;
+    @Autowired
+    UrlAccessDecisionManager urlAccessDecisionManager;
+
+    @Autowired
     RestAuthenticationEntryPoint restAuthenticationEntryPoint;
 
     @Autowired
@@ -62,6 +69,14 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
+//                .withObjectPostProcessor(new ObjectPostProcessor<FilterSecurityInterceptor>() {
+//                    @Override
+//                    public <O extends FilterSecurityInterceptor> O postProcess(O o) {
+//                        o.setSecurityMetadataSource(metadataSource);
+//                        o.setAccessDecisionManager(urlAccessDecisionManager);
+//                        return o;
+//                    }
+//                })
                 .antMatchers(HttpMethod.GET, // 允许对于网站静态资源的无授权访问
                         "/",
                         "/*.html",

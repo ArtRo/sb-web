@@ -18,4 +18,8 @@ public class CustomBeanConfiguration {
         return new Gson();
     }
 
+    @Bean
+    public ExceptionConfiguration getExceptionConfiguration(){
+        return new ExceptionConfiguration();
+    }
 }

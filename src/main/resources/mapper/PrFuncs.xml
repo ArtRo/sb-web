@@ -4,11 +4,11 @@
 
   <resultMap id="BaseResultMap" type="com.example.demo.entity.PrFuncs">
 			<id column="id" jdbcType="BIGINT" property="id" />
-			<result column="parent_id" jdbcType="BIGINT" property="parentId" />
-			<result column="name" jdbcType="VARCHAR" property="name" />
-			<result column="value" jdbcType="VARCHAR" property="value" />
+			<result column="parent_id" jdbcType="INTEGER" property="parentId" />
+			<result column="func_name" jdbcType="VARCHAR" property="funcName" />
+			<result column="func_value" jdbcType="VARCHAR" property="funcValue" />
 			<result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
-			<result column="is_del" jdbcType="INTEGER" property="isDel" />
+			<result column="is_del" jdbcType="TINYINT" property="isDel" />
 			<result column="request_url" jdbcType="VARCHAR" property="requestUrl" />
 			<result column="weight" jdbcType="INTEGER" property="weight" />
   </resultMap>
@@ -16,8 +16,8 @@
   <sql id="Base_Column_List">
 		id,
 		parent_id,
-		name,
-		value,
+		func_name,
+		func_value,
 		create_time,
 		is_del,
 		request_url,
@@ -33,19 +33,19 @@
 		    AND	id = #{id,jdbcType=BIGINT}
 		  </if>		
 		  <if test="parentId != null">
-		    AND	parent_id = #{parentId,jdbcType=BIGINT}
+		    AND	parent_id = #{parentId,jdbcType=INTEGER}
 		  </if>		
-		  <if test="name != null">
-		    AND	name = #{name,jdbcType=VARCHAR}
+		  <if test="funcName != null">
+		    AND	func_name = #{funcName,jdbcType=VARCHAR}
 		  </if>		
-		  <if test="value != null">
-		    AND	value = #{value,jdbcType=VARCHAR}
+		  <if test="funcValue != null">
+		    AND	func_value = #{funcValue,jdbcType=VARCHAR}
 		  </if>		
 		  <if test="createTime != null">
 		    AND	create_time = #{createTime,jdbcType=TIMESTAMP}
 		  </if>		
 		  <if test="isDel != null">
-		    AND	is_del = #{isDel,jdbcType=INTEGER}
+		    AND	is_del = #{isDel,jdbcType=TINYINT}
 		  </if>		
 		  <if test="requestUrl != null">
 		    AND	request_url = #{requestUrl,jdbcType=VARCHAR}
@@ -72,7 +72,8 @@
     </trim>
   </delete>    
   
-  <insert id="insert" parameterType="com.example.demo.entity.PrFuncs">
+  <insert id="insert" parameterType="com.example.demo.entity.PrFuncs"
+   useGeneratedKeys="true" keyProperty="id">
     insert into pr_funcs
     <trim prefix="(" suffix=")" suffixOverrides=",">
 		  <if test="id != null">
@@ -81,11 +82,11 @@
 		  <if test="parentId != null">
 			parent_id,
 		  </if>		
-		  <if test="name != null">
-			name,
+		  <if test="funcName != null">
+			func_name,
 		  </if>		
-		  <if test="value != null">
-			value,
+		  <if test="funcValue != null">
+			func_value,
 		  </if>		
 		  <if test="createTime != null">
 			create_time,
@@ -105,19 +106,19 @@
 				#{id,jdbcType=BIGINT},
 			</if>
 			<if test="parentId != null">
-				#{parentId,jdbcType=BIGINT},
+				#{parentId,jdbcType=INTEGER},
 			</if>
-			<if test="name != null">
-				#{name,jdbcType=VARCHAR},
+			<if test="funcName != null">
+				#{funcName,jdbcType=VARCHAR},
 			</if>
-			<if test="value != null">
-				#{value,jdbcType=VARCHAR},
+			<if test="funcValue != null">
+				#{funcValue,jdbcType=VARCHAR},
 			</if>
 			<if test="createTime != null">
 				#{createTime,jdbcType=TIMESTAMP},
 			</if>
 			<if test="isDel != null">
-				#{isDel,jdbcType=INTEGER},
+				#{isDel,jdbcType=TINYINT},
 			</if>
 			<if test="requestUrl != null">
 				#{requestUrl,jdbcType=VARCHAR},
@@ -135,19 +136,19 @@
 				id = #{id,jdbcType=BIGINT},
 			</if>
 			<if test="parentId != null">
-				parent_id = #{parentId,jdbcType=BIGINT},
+				parent_id = #{parentId,jdbcType=INTEGER},
 			</if>
-			<if test="name != null">
-				name = #{name,jdbcType=VARCHAR},
+			<if test="funcName != null">
+				func_name = #{funcName,jdbcType=VARCHAR},
 			</if>
-			<if test="value != null">
-				value = #{value,jdbcType=VARCHAR},
+			<if test="funcValue != null">
+				func_value = #{funcValue,jdbcType=VARCHAR},
 			</if>
 			<if test="createTime != null">
 				create_time = #{createTime,jdbcType=TIMESTAMP},
 			</if>
 			<if test="isDel != null">
-				is_del = #{isDel,jdbcType=INTEGER},
+				is_del = #{isDel,jdbcType=TINYINT},
 			</if>
 			<if test="requestUrl != null">
 				request_url = #{requestUrl,jdbcType=VARCHAR},
@@ -162,27 +163,36 @@
     </trim>
   </update>
 
-  <select id="getFuncsByAdminId" resultMap="BaseResultMap">
-	  SELECT
-			pf.*
+
+	<select id="getPrfuncsByAdminId" resultMap="BaseResultMap">
+		SELECT
+			*
 		FROM
-			pr_funcs pf
-		LEFT JOIN pr_role_func_relation prfr ON pf.id = prfr.func_id
-		LEFT JOIN (
-			SELECT
-				pr.id roleId,au.id adminId
-			FROM
-				pr_role pr
-			INNER JOIN pr_admin_role_relation parr ON pr.id = parr.role_id
-			INNER JOIN admin_user au ON au.id = parr.admin_id
-			WHERE
-				au.is_del = 1
-			AND au.`status` = 1
-			AND pr.`status` = 1
-		) prrole ON prrole.roleId = prfr.role_id
-		WHERE
-	pf.is_del = 1
-	AND prrole.adminId = #{adminId}
-  </select>
-  
+			pr_admin_role_relation para
+		INNER JOIN pr_role_func_relation prfr ON para.role_id = prfr.role_id
+		INNER JOIN pr_funcs pf ON pf.id = prfr.func_id
+		AND pf.is_del = 1
+		WHERE para.admin_id = #{adminId}
+	</select>
+
+	<insert id="insertByBatch"  keyProperty="id" useGeneratedKeys="true">
+		INSERT INTO pr_funcs(func_name,func_value,request_url,func_index) VALUES(
+		<foreach collection="prFuncs" item="item" index="index" separator=",">
+			(#{item.funcName},
+			#{item.funcValue},
+			#{item.request_url}),
+			#{item.funcIndex})
+		</foreach>
+		)
+	</insert>
+
+	<select id="getFuncAndRoleByUrl" resultType="com.example.demo.bo.FuncAndRoleBo">
+		SELECT
+			pf.*,pr.id prId,pr.role_name roleName
+		FROM
+			pr_role_func_relation prfr
+		INNER JOIN pr_role pr ON prfr.role_id = pr.id
+		INNER JOIN pr_funcs pf ON pf.id = prfr.func_id
+		WHERE pf.request_url = #{requestUrl}
+	</select>
 </mapper>

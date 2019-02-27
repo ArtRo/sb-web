@@ -13,15 +13,15 @@ public class PrFuncs implements Serializable{
     /*   */
     private Long id;
     /*   */
-    private Long parentId;
+    private Integer parentId;
     /*   */
-    private String name;
+    private String funcName;
     /*   */
-    private String value;
+    private String funcValue;
     /*   */
     private Date createTime;
     /*   */
-    private Integer isDel;
+    private Byte isDel;
     /*   */
     private String requestUrl;
     /* 权重  */
@@ -30,19 +30,19 @@ public class PrFuncs implements Serializable{
     public Long getId() {
         return this.id;
     }
-    public Long getParentId() {
+    public Integer getParentId() {
         return this.parentId;
     }
-    public String getName() {
-        return this.name;
+    public String getFuncName() {
+        return this.funcName;
     }
-    public String getValue() {
-        return this.value;
+    public String getFuncValue() {
+        return this.funcValue;
     }
     public Date getCreateTime() {
         return this.createTime;
     }
-    public Integer getIsDel() {
+    public Byte getIsDel() {
         return this.isDel;
     }
     public String getRequestUrl() {
@@ -55,19 +55,19 @@ public class PrFuncs implements Serializable{
     public void setId(Long id) {
         this.id = id;
     }
-    public void setParentId(Long parentId) {
+    public void setParentId(Integer parentId) {
         this.parentId = parentId;
     }
-    public void setName(String name) {
-        this.name = name;
+    public void setFuncName(String funcName) {
+        this.funcName = funcName;
     }
-    public void setValue(String value) {
-        this.value = value;
+    public void setFuncValue(String funcValue) {
+        this.funcValue = funcValue;
     }
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
-    public void setIsDel(Integer isDel) {
+    public void setIsDel(Byte isDel) {
         this.isDel = isDel;
     }
     public void setRequestUrl(String requestUrl) {

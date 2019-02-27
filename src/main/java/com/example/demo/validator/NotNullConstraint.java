@@ -26,6 +26,6 @@ public class NotNullConstraint implements ConstraintValidator<NotNull,String> {
     @Override
     public boolean isValid(String o, ConstraintValidatorContext constraintValidatorContext) {
         System.out.println("验证"+o);
-        return StringUtils.isEmpty(0);
+        return !StringUtils.isEmpty(o);
     }
 }

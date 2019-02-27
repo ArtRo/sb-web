@@ -3,7 +3,9 @@ package com.example.demo.rest;
 
 import com.example.demo.bo.Mobile;
 import com.example.demo.config.FdfsConfiguration;
+import com.example.demo.entity.PrFuncs;
 import com.example.demo.entity.ThirdInfo;
+import com.example.demo.service.PrFuncsService;
 import com.example.demo.service.ThirdInfoService;
 import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.util.InfoCode;
@@ -34,6 +36,9 @@ public class FirstTestController {
     ThirdInfoService thirdInfoService;
 
     @Autowired
+    PrFuncsService prFuncsService;
+
+    @Autowired
     FdfsConfiguration fdfsConfiguration;
 
     @RequestMapping(value = "/getOne", method = RequestMethod.GET)
@@ -49,7 +54,12 @@ public class FirstTestController {
     @RequestMapping(value = "getwe")
     @ResponseBody
     public Integer getTwe(@Validated Mobile mobile, BindingResult result){
-        return 1;
+        PrFuncs prFuncs = new PrFuncs();
+        prFuncs.setFuncName("adfasdsa");
+        prFuncs.setFuncValue("asdfa");
+        prFuncs.setRequestUrl("/adsd");
+        prFuncs.setParentId(1);
+        return prFuncsService.insert(prFuncs);
     }
 
 

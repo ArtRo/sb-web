@@ -1,11 +1,10 @@
 package com.example.demo.dao;
 
+import com.example.demo.bo.FuncAndRoleBo;
 import com.example.demo.entity.PrFuncs;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public interface PrFuncsDao {
 
     List<PrFuncs> selectByEntity(PrFuncs record);
@@ -18,6 +17,10 @@ public interface PrFuncsDao {
     
     int updateByEntity(PrFuncs record);
 
-    List<PrFuncs> getFuncsByAdminId(Integer adminId);
+    List<PrFuncs> getPrfuncsByAdminId(Integer adminId);
+
+    int[] insertByBatch(List<PrFuncs> prFuncs);
+
+    List<FuncAndRoleBo> getFuncAndRoleByUrl(String requestUrl);
     
 }

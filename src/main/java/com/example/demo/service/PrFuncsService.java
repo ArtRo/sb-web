@@ -1,5 +1,6 @@
 package com.example.demo.service;
 
+import com.example.demo.bo.FuncAndRoleBo;
 import com.example.demo.entity.PrFuncs;
 
 import java.util.List;
@@ -17,5 +18,8 @@ public interface PrFuncsService {
     int updateByEntity(PrFuncs record);
 
     List<PrFuncs> getPrfuncsByAdminId(Integer adminId);
-    
+
+    int[] insertByBatch(List<PrFuncs> prFuncs);
+
+    List<FuncAndRoleBo> getFuncAndRoleByUrl(String requestUrl);
 }
