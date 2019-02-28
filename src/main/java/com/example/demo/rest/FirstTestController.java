@@ -43,7 +43,7 @@ public class FirstTestController {
 
     @RequestMapping(value = "/getOne", method = RequestMethod.GET)
     @ResponseBody
-    @PreAuthorize("hasAuthority('adddd')")
+//    @PreAuthorize("hasAuthority('adddd')")
 //    @Cacheable(value = "thirdInfo")
     public BaseVo getOne(Long id)throws ApplicationRunTimeExeption{
         logger.info("load12222222222222");

@@ -29,9 +29,12 @@ public class UserDetail implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return prFuncs.stream()
-                .map(prFunc->{return  new SimpleGrantedAuthority(prFunc.getFuncValue());})
+        List<SimpleGrantedAuthority> collect = prFuncs.stream()
+                .map(prFunc -> {
+                    return new SimpleGrantedAuthority(prFunc.getFuncValue());
+                })
                 .collect(Collectors.toList());
+        return collect;
     }
 
     @Override

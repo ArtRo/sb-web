@@ -2,6 +2,7 @@ package com.example.demo.dao;
 
 import com.example.demo.bo.FuncAndRoleBo;
 import com.example.demo.entity.PrFuncs;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -19,7 +20,7 @@ public interface PrFuncsDao {
 
     List<PrFuncs> getPrfuncsByAdminId(Integer adminId);
 
-    int[] insertByBatch(List<PrFuncs> prFuncs);
+    int insertByBatch(@Param("prFuncs") List<PrFuncs> prFuncs);
 
     List<FuncAndRoleBo> getFuncAndRoleByUrl(String requestUrl);
     

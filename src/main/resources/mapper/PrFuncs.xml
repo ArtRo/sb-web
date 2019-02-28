@@ -176,14 +176,13 @@
 	</select>
 
 	<insert id="insertByBatch"  keyProperty="id" useGeneratedKeys="true">
-		INSERT INTO pr_funcs(func_name,func_value,request_url,func_index) VALUES(
+		INSERT INTO pr_funcs(func_name,func_value,request_url,parent_id) VALUES
 		<foreach collection="prFuncs" item="item" index="index" separator=",">
 			(#{item.funcName},
 			#{item.funcValue},
-			#{item.request_url}),
-			#{item.funcIndex})
+			#{item.requestUrl},
+			#{item.parentId})
 		</foreach>
-		)
 	</insert>
 
 	<select id="getFuncAndRoleByUrl" resultType="com.example.demo.bo.FuncAndRoleBo">

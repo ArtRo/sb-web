@@ -19,7 +19,7 @@ public interface PrFuncsService {
 
     List<PrFuncs> getPrfuncsByAdminId(Integer adminId);
 
-    int[] insertByBatch(List<PrFuncs> prFuncs);
+    Integer insertByBatch(List<PrFuncs> prFuncs);
 
     List<FuncAndRoleBo> getFuncAndRoleByUrl(String requestUrl);
 }

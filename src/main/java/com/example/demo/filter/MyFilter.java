@@ -9,7 +9,9 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
+//FIXME  注解用
 //@WebFilter(urlPatterns = "/*")
+@Deprecated
 public class MyFilter implements Filter {
 
     Logger logger = LoggerFactory.getLogger(MyFilter.class);
