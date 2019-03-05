@@ -1,13 +1,14 @@
 package com.example.demo.service;
 
 import com.example.demo.bo.FuncAndRoleBo;
-import com.example.demo.entity.PrFuncs;
+import com.example.demo.entity.mymysql.PrFuncs;
+import com.example.demo.entity.mymysql.PrFuncsExample;
 
 import java.util.List;
 
 public interface PrFuncsService {
 
-    List<PrFuncs> selectByEntity(PrFuncs record);
+    List<PrFuncs> selectByEntity(PrFuncsExample record);
     
     PrFuncs selectById(Long id);
 

@@ -1,12 +1,13 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.PrRoleFuncRelation;
+import com.example.demo.entity.mymysql.PrRoleFuncRelation;
+import com.example.demo.entity.mymysql.PrRoleFuncRelationExample;
 
 import java.util.List;
 
 public interface PrRoleFuncRelationService {
 
-    List<PrRoleFuncRelation> selectByEntity(PrRoleFuncRelation record);
+    List<PrRoleFuncRelation> selectByEntity(PrRoleFuncRelationExample record);
     
     PrRoleFuncRelation selectById(Long id);
 

@@ -1,7 +1,7 @@
 package com.example.demo.bo;
 
-import com.example.demo.entity.AdminUser;
-import com.example.demo.entity.PrFuncs;
+import com.example.demo.entity.mymysql.AdminUser;
+import com.example.demo.entity.mymysql.PrFuncs;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

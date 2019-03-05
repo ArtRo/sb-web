@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * Created by dhf_ndm on 2019/2/19
  * the previous bug derived from the previous
  */
-@Component
+//@Component
 public class ActiveMQListener {
 
     @JmsListener(destination = "public.queue", containerFactory = "jmsListenerContainerQueue")

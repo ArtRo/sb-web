@@ -1,7 +1,6 @@
 package com.example.demo.compenent;
 
 import com.example.demo.bo.FuncAndRoleBo;
-import com.example.demo.entity.PrFuncs;
 import com.example.demo.service.PrFuncsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.ConfigAttribute;

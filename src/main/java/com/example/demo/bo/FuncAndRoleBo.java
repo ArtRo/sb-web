@@ -1,12 +1,12 @@
 package com.example.demo.bo;
 
-import com.example.demo.entity.PrFuncs;
+import com.example.demo.entity.mymysql.PrFuncs;
 
 /**
  * Created by dhf_ndm on 2019/2/27
  * the previous bug derived from the previous
  */
-public class FuncAndRoleBo extends PrFuncs {
+public class  FuncAndRoleBo extends PrFuncs {
     Integer prId;
 
     String roleName;

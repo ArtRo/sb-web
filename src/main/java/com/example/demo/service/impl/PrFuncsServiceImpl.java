@@ -1,13 +1,13 @@
 package com.example.demo.service.impl;
 
 import com.example.demo.bo.FuncAndRoleBo;
-import com.example.demo.dao.PrFuncsDao;
-import com.example.demo.entity.PrFuncs;
+import com.example.demo.dao.mymysql.PrFuncsMapper;
+import com.example.demo.entity.mymysql.PrFuncs;
+import com.example.demo.entity.mymysql.PrFuncsExample;
 import com.example.demo.service.PrFuncsService;
 import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.util.InfoCode;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,17 +18,17 @@ import java.util.List;
 public class PrFuncsServiceImpl implements PrFuncsService {
 
     @Autowired
-    private PrFuncsDao prFuncsDao;
+    private PrFuncsMapper prFuncsDao;
 
     @Override
-    public List<PrFuncs> selectByEntity(PrFuncs record) {
-        List<PrFuncs> result = prFuncsDao.selectByEntity(record);
+    public List<PrFuncs> selectByEntity(PrFuncsExample record) {
+        List<PrFuncs> result = prFuncsDao.selectByExample(record);
         return result;
     }
 
     @Override
     public PrFuncs selectById(Long id) {
-        PrFuncs result = prFuncsDao.selectById(id);
+        PrFuncs result = prFuncsDao.selectByPrimaryKey(id);
         return result;
     }
 
@@ -42,7 +42,7 @@ public class PrFuncsServiceImpl implements PrFuncsService {
 
     @Override
     public int updateByEntity(PrFuncs record) {
-        return prFuncsDao.updateByEntity(record);
+        return prFuncsDao.updateByPrimaryKeySelective(record);
     }
 
     @Override
@@ -66,7 +66,7 @@ public class PrFuncsServiceImpl implements PrFuncsService {
 
     @Override
     public int deleteById(Long id) {
-        return prFuncsDao.deleteById(id);
+        return prFuncsDao.deleteByPrimaryKey(id);
     }
 
 }

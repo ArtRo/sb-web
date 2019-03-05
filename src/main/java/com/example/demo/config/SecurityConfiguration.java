@@ -5,8 +5,8 @@ import com.example.demo.compenent.CustomMetadataSource;
 import com.example.demo.compenent.RestAuthenticationEntryPoint;
 import com.example.demo.compenent.RestfulAccessDeniedHandler;
 import com.example.demo.compenent.UrlAccessDecisionManager;
-import com.example.demo.entity.AdminUser;
-import com.example.demo.entity.PrFuncs;
+import com.example.demo.entity.mymysql.AdminUser;
+import com.example.demo.entity.mymysql.PrFuncs;
 import com.example.demo.filter.JwtAuthenticationTokenFilter;
 import com.example.demo.service.AdminUserService;
 import com.example.demo.service.PrFuncsService;
@@ -98,7 +98,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .authenticated();
 
         // 禁用缓存
-        http.headers().cacheControl();
+//        http.headers().cacheControl();
         // 添加JWT filter
         http.addFilterBefore(jwtAuthenticationTokenFilter(), UsernamePasswordAuthenticationFilter.class);
 

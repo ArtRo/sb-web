@@ -1,19 +1,19 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.AdminUser;
-import com.example.demo.vo.BaseVo;
+import com.example.demo.entity.mymysql.AdminUser;
+import com.example.demo.entity.mymysql.AdminUserExample;
 
 import java.util.List;
 
 public interface AdminUserService {
 
-    List<AdminUser> selectByEntity(AdminUser record);
+    List<AdminUser> selectByEntity(AdminUserExample record);
     
-    AdminUser selectById(Long id);
+    AdminUser selectById(Integer id);
 
     int insert(AdminUser record);
     
-    int deleteById(Long id);
+    int deleteById(Integer id);
     
     int updateByEntity(AdminUser record);
 

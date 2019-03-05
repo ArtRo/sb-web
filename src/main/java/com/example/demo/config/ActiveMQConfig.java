@@ -16,7 +16,7 @@ import org.springframework.jms.config.JmsListenerContainerFactory;
  * the previous bug derived from the previous
  */
 //TODO activeMQ 配置  这里只是简单应用
-@Configuration
+//@Configuration
 public class ActiveMQConfig {
     @Value("${queueName}")
     private String queueName;

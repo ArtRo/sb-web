@@ -3,25 +3,20 @@ package com.example.demo.rest;
 
 import com.example.demo.bo.Mobile;
 import com.example.demo.config.FdfsConfiguration;
-import com.example.demo.entity.PrFuncs;
-import com.example.demo.entity.ThirdInfo;
+import com.example.demo.entity.mymysql.PrFuncs;
 import com.example.demo.service.PrFuncsService;
-import com.example.demo.service.ThirdInfoService;
 import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.util.InfoCode;
-import com.example.demo.validator.NotNull;
 import com.example.demo.vo.BaseVo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.File;
@@ -32,8 +27,6 @@ public class FirstTestController {
 
     Logger logger = LoggerFactory.getLogger(FirstTestController.class);
 
-    @Autowired
-    ThirdInfoService thirdInfoService;
 
     @Autowired
     PrFuncsService prFuncsService;
@@ -43,7 +36,7 @@ public class FirstTestController {
 
     @RequestMapping(value = "/getOne", method = RequestMethod.GET)
     @ResponseBody
-//    @PreAuthorize("hasAuthority('adddd')")
+    @PreAuthorize("hasAuthority('addddd')")
 //    @Cacheable(value = "thirdInfo")
     public BaseVo getOne(Long id)throws ApplicationRunTimeExeption{
         logger.info("load12222222222222");
@@ -55,7 +48,7 @@ public class FirstTestController {
     @ResponseBody
     public Integer getTwe(@Validated Mobile mobile, BindingResult result){
         PrFuncs prFuncs = new PrFuncs();
-        prFuncs.setFuncName("adfasdsa");
+        prFuncs.setFuncName("管理员");
         prFuncs.setFuncValue("asdfa");
         prFuncs.setRequestUrl("/adsd");
         prFuncs.setParentId(1);

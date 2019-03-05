@@ -1,6 +1,6 @@
 package com.example.demo.rest.adminManage;
 
-import com.example.demo.entity.AdminUser;
+import com.example.demo.entity.mymysql.AdminUser;
 import com.example.demo.service.AdminUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -30,7 +30,7 @@ public class AdminController {
 
     @RequestMapping(value = "/login", name = "登陆", method = RequestMethod.POST)
     @ResponseBody
-    public Object loginAdmin(@Validated @RequestBody AdminUser adminUser, BindingResult bindingResult) {
+    public Object loginAdmin(@Validated @RequestBody AdminUser adminUser,BindingResult bindingResult) {
         return adminUserService.loginAdmin(adminUser);
     }
 }

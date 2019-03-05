@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@Component
+//@Component
 public class CommonInteractor implements HandlerInterceptor {
 
     Logger logger = LoggerFactory.getLogger(CommonInteractor.class);

@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 
 
 //TODO 拦截器的配置
-@Configuration
+//@Configuration
 public class InteractorConfiguration implements WebMvcConfigurer {
 
     @Resource

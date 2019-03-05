@@ -1,13 +1,12 @@
 package com.example.demo.util.scan;
 
-import com.example.demo.entity.PrFuncs;
+import com.example.demo.entity.mymysql.PrFuncs;
 import com.example.demo.service.PrFuncsService;
 import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.validator.OpenInterFace;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
-import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestMapping;
