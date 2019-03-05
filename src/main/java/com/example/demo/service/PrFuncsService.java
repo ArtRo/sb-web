@@ -1,8 +1,8 @@
 package com.example.demo.service;
 
-import com.example.demo.bo.FuncAndRoleBo;
 import com.example.demo.entity.mymysql.PrFuncs;
 import com.example.demo.entity.mymysql.PrFuncsExample;
+import com.example.demo.vo.FuncVo;
 
 import java.util.List;
 
@@ -18,9 +18,9 @@ public interface PrFuncsService {
     
     int updateByEntity(PrFuncs record);
 
-    List<PrFuncs> getPrfuncsByAdminId(Integer adminId);
-
     Integer insertByBatch(List<PrFuncs> prFuncs);
 
-    List<FuncAndRoleBo> getFuncAndRoleByUrl(String requestUrl);
+    List<FuncVo> getFuncsByAdminId(Integer adminId);
+
+    Object editAuthByAdminId(Integer adminId, Long[] funcs);
 }

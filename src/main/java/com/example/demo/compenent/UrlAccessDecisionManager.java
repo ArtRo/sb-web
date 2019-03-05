@@ -16,7 +16,8 @@ import java.util.Iterator;
  * Created by dhf_ndm on 2019/2/27
  * the previous bug derived from the previous
  */
-@Component
+@Deprecated
+//@Component
 public class UrlAccessDecisionManager implements AccessDecisionManager {
     @Override
     public void decide(Authentication auth, Object o, Collection<ConfigAttribute> cas){

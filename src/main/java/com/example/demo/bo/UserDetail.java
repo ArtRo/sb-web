@@ -1,7 +1,7 @@
 package com.example.demo.bo;
 
 import com.example.demo.entity.mymysql.AdminUser;
-import com.example.demo.entity.mymysql.PrFuncs;
+import com.example.demo.vo.FuncVo;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,11 +18,12 @@ public class UserDetail implements UserDetails {
 
     private AdminUser adminUser;
 
-    private List<PrFuncs> prFuncs;
+    private List<FuncVo> prFuncs;
 
-    public UserDetail(){}
+    public UserDetail() {
+    }
 
-    public UserDetail(AdminUser adminUser,List<PrFuncs> prFuncs){
+    public UserDetail(AdminUser adminUser, List<FuncVo> prFuncs) {
         this.adminUser = adminUser;
         this.prFuncs = prFuncs;
     }
@@ -30,6 +31,7 @@ public class UserDetail implements UserDetails {
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         List<SimpleGrantedAuthority> collect = prFuncs.stream()
+                .filter(funcVo -> funcVo.getHasAuth().equals(1))
                 .map(prFunc -> {
                     return new SimpleGrantedAuthority(prFunc.getFuncValue());
                 })

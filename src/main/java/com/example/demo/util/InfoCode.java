@@ -22,6 +22,8 @@ public enum InfoCode {
 
     PARAMETER_ERROR(633,"参数异常"),
 
+    EDIT_AUTH_FAILED(635,"修改权限失败"),
+
 
     REQUEST_OK(200,"请求成功");
 

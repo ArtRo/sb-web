@@ -15,7 +15,7 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@MapperScan("com.example.demo.dao")
+@MapperScan("com.example.demo.dao.**")
 @EnableCaching
 @EnableTransactionManagement
 //@ServletComponentScan(basePackages = {"com.example.demo.filter"})

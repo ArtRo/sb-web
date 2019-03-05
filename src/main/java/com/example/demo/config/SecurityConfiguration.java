@@ -13,6 +13,7 @@ import com.example.demo.service.PrFuncsService;
 import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.util.InfoCode;
 import com.example.demo.util.PasswordEncoderUtil;
+import com.example.demo.vo.FuncVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -120,7 +121,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         return username -> {
             AdminUser adminUser = adminUserService.getAdminUserByUsername(username);
             if (null != adminUser) {
-                List<PrFuncs> prfuncs = prFuncsService.getPrfuncsByAdminId(adminUser.getId());
+                List<FuncVo> prfuncs = prFuncsService.getFuncsByAdminId(adminUser.getId());
                 return new UserDetail(adminUser, prfuncs);
             }
             throw new ApplicationRunTimeExeption(InfoCode.ACCOUNT_OR_PASSWORD_ERROR);
