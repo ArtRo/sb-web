@@ -5,4 +5,4 @@
   
   2019/02/28  添加scan 将没有OpenController 的接口扫描入库
   
-  2019/03/05 自己挖坑  原来用的mcg-helper 生成的model  现在改回了mybatis generator 虽然mcg-helper 功能很强大 感觉后者更适合我#17
+  2019/03/05 自己挖坑  原来用的mcg-helper 生成的model  现在改回了mybatis generator 虽然mcg-helper 功能很强大 感觉后者更适合我#17 如果有想尝试mcg的可以链接: https://pan.baidu.com/s/1DEnGs2Fpm2nAWb-QMtxGqw 提取码: vbrd 自己谷百
