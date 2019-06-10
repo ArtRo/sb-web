@@ -2,10 +2,10 @@ package com.example.demo.aspect;
 
 import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.util.InfoCode;
-import com.example.demo.vo.BaseVo;
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.*;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.BindingResult;
@@ -38,18 +38,18 @@ public class BindingResultAspect {
 //    }
 
     @Around("BindingResult()")
-    public Object around(ProceedingJoinPoint joinPoint)throws Throwable{
+    public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes.getRequest();
         System.out.println(request.getRequestURL());
         System.out.println(request.getRequestURI());
         Object[] args = joinPoint.getArgs();
-        if(args.length > 0){
-            for(Object a : args){
-                if(a instanceof BindingResult){
+        if (args.length > 0) {
+            for (Object a : args) {
+                if (a instanceof BindingResult) {
                     BindingResult br = (BindingResult) a;
-                    if(br.hasErrors()){
-                       throw new ApplicationRunTimeExeption(InfoCode.PARAMETER_ERROR);
+                    if (br.hasErrors()) {
+                        throw new ApplicationRunTimeExeption(InfoCode.PARAMETER_ERROR);
                     }
                 }
             }

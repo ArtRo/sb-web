@@ -15,6 +15,7 @@ import java.util.Map;
 
 //FIXME 全局异常处理 全局异常处理和spring security 冲突 在配置的时候一定要协商好配置的框架
 //@ControllerAdvice
+@Deprecated
 public class ExceptionConfig {
 
     Logger logger = LoggerFactory.getLogger(ExceptionConfig.class);

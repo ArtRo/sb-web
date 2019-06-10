@@ -1,8 +1,8 @@
 package com.example.demo.service.impl;
 
+import com.example.demo.dao.custom.AdminMapper;
 import com.example.demo.dao.mymysql.AdminUserMapper;
 import com.example.demo.entity.mymysql.AdminUser;
-import com.example.demo.entity.mymysql.AdminUserExample;
 import com.example.demo.service.AdminUserService;
 import com.example.demo.util.ApplicationRunTimeExeption;
 import com.example.demo.util.InfoCode;
@@ -36,7 +36,10 @@ public class AdminUserServiceImpl implements AdminUserService {
     private UserDetailsService userDetailsService;
 
     @Autowired
-    private AdminUserMapper adminUserDao;
+    private AdminUserMapper adminUserMapper;
+
+    @Autowired
+    private AdminMapper adminMapper;
 
     @Autowired
     JwtTokenUtil jwtTokenUtil;
@@ -44,39 +47,32 @@ public class AdminUserServiceImpl implements AdminUserService {
     @Autowired
     PasswordEncoder passwordEncoder;
 
-    @Override
-    public List<AdminUser> selectByEntity(AdminUserExample record) {
-        List<AdminUser> result = adminUserDao.selectByExample(record);
-        return result;
-    }
 
     @Override
     public AdminUser selectById(Integer id) {
-        AdminUser result = adminUserDao.selectByPrimaryKey(id);
+        AdminUser result = adminUserMapper.selectByPrimaryKey(id);
         return result;
     }
 
     @Override
     public int insert(AdminUser record) {
-        return adminUserDao.insertSelective(record);
+        return adminUserMapper.insertSelective(record);
     }
 
     @Override
     public int updateByEntity(AdminUser record) {
-        return adminUserDao.updateByPrimaryKeySelective(record);
+        return adminUserMapper.updateByPrimaryKeySelective(record);
     }
 
     @Override
     public AdminUser getAdminUserByUsername(String username) {
-        AdminUserExample adminUser = new AdminUserExample();
-        adminUser.createCriteria().andUsernameEqualTo(username);
-        List<AdminUser> adminUsers = adminUserDao.selectByExample(adminUser);
+        List<AdminUser> adminUsers = adminMapper.selectByUserName(username);
         return adminUsers.size() == 1 ? adminUsers.get(0) : null;
     }
 
     @Override
     public int deleteById(Integer id) {
-        return adminUserDao.deleteByPrimaryKey(id);
+        return adminUserMapper.deleteByPrimaryKey(id);
     }
 
     @Override
@@ -84,7 +80,7 @@ public class AdminUserServiceImpl implements AdminUserService {
         if (!isRegistered(adminUser.getUsername())) {
             String password = adminUser.getPassword();
             adminUser.setPassword(passwordEncoder.encode(password));
-            int insert = adminUserDao.insert(adminUser);
+            int insert = adminUserMapper.insertSelective(adminUser);
             if (insert > 0) {
                 //两种逻辑 直接跳转进入或者到登陆页面登陆
                 return insert;
@@ -102,7 +98,6 @@ public class AdminUserServiceImpl implements AdminUserService {
         SecurityContextHolder.getContext().setAuthentication(authenticate);
         UserDetails userDetails = userDetailsService.loadUserByUsername(adminUser.getUsername());
         String token = jwtTokenUtil.generateToken(userDetails);
-        updateLoginTime(userDetails.getUsername());
         HashMap<String, String> map = new HashMap<>();
         map.put("token", token);
         map.put("tokenHeader", tokenHeader);
@@ -120,13 +115,5 @@ public class AdminUserServiceImpl implements AdminUserService {
         return isRegistered;
     }
 
-    private Integer updateLoginTime(String username) {
-        AdminUser adminUser = new AdminUser();
-        adminUser.setUpdateTime(System.currentTimeMillis());
-        adminUser.setUsername(username);
-        AdminUserExample example = new AdminUserExample();
-        example.createCriteria().andUsernameEqualTo(username);
-        return adminUserDao.updateByExample(adminUser, example);
-    }
 
 }

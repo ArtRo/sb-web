@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.custom.FuncAndRoleMapper">
+
+
+    <select id="getPrfuncsByAdminId" resultMap="com.example.demo.dao.mymysql.PrFuncsMapper.BaseResultMap">
+        SELECT
+        pf.*
+        FROM
+        pr_funcs pf
+        LEFT JOIN (
+        SELECT
+        prfr.func_id
+        FROM
+        pr_role_func_relation prfr
+        INNER JOIN pr_admin_role_relation parr ON parr.role_id = prfr.role_id
+        WHERE
+        parr.admin_id = #{adminId}
+        ) roleFuncs ON pf.id = roleFuncs.func_id
+        WHERE
+        pf.is_del = 1
+        <if test="parentId !=null">
+            AND pf.parent_id = #{parentId}
+        </if>
+    </select>
+
+
+    <insert id="insertByBatch">
+        INSERT INTO pr_funcs(func_name,request_url,func_value,parent_id) VALUES
+        <foreach collection="prfuncs" item="item" index="index" separator=",">
+            (#{item.funcName},
+            #{item.requestUrl},
+            #{item.funcValue},
+            #{item.parentId})
+        </foreach>
+    </insert>
+
+
+    <select id="selectFuncByIds" resultMap="com.example.demo.dao.mymysql.PrRoleFuncRelationMapper.BaseResultMap">
+        select * from pr_funcs pf where  pf.is_del = #{isDel}
+        AND pf.id in
+        <foreach collection="funcs" item="funcId" separator="," open="(" close=")">
+            #{funcId}
+        </foreach>
+     </select>
+
+    <delete id="deleteRelationByIds">
+        delete from pr_role_func_relation where id in
+        <foreach collection="needDelIds" close=")" open="(" item="id" separator=",">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="selectByState" resultMap="com.example.demo.dao.mymysql.PrRoleMapper.BaseResultMap">
+        select * from pr_role where is_del = #{isDel}
+    </select>
+
+    <select id="selectFuncByRoleId" resultMap="com.example.demo.dao.mymysql.PrRoleFuncRelationMapper.BaseResultMap">
+        select * from pr_role_func_relation where role_id = #{roleId}
+    </select>
+
+
+    <insert id="insertFuncAndRoleRelationByBatch">
+        INSERT INTO pr_role_func_relation(role_id,func_id)
+        VALUES
+        <foreach collection="relations" item="relation" index="index">
+            (
+            relation.roleId,relation.funcId
+            )
+        </foreach>
+    </insert>
+</mapper>

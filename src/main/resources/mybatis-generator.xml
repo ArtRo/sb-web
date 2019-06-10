@@ -74,13 +74,13 @@
         <!--<property name="useActualColumnNames" value="true"/>-->
         <!--<property name="runtimeSchema" value="example_database_name"/>-->
         <!--</table>-->
-        <table tableName="pr_funcs" enableSelectByPrimaryKey="true">
-            <!--//是否使用数据库原来的字段 false 转化为驼峰-->
+        <table tableName="pr_admin_role_relation" enableCountByExample="false" enableUpdateByExample="false"
+        enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+     <!--//是否使用数据库原来的字段 false 转化为驼峰-->
             <property name="useActualColumnNames" value="false"/>
             <property name="runtimeSchema" value="mymysql"/>
-            <columnOverride column="is_del" javaType="Integer"/>
-            <columnOverride column="parent_id" javaType="Integer"/>
-            <columnOverride column="role_status" javaType="Integer"/>
+            <!--<columnOverride column="is_del" javaType="Integer"/>-->
+            <!--<columnOverride column="role_status" javaType="Integer"/>-->
         </table>
 
     </context>

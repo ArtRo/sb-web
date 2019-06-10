@@ -52,11 +52,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     PrFuncsService prFuncsService;
 
     @Autowired
-    CustomMetadataSource metadataSource;
-    @Autowired
-    UrlAccessDecisionManager urlAccessDecisionManager;
-
-    @Autowired
     RestAuthenticationEntryPoint restAuthenticationEntryPoint;
 
     @Autowired
@@ -121,7 +116,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         return username -> {
             AdminUser adminUser = adminUserService.getAdminUserByUsername(username);
             if (null != adminUser) {
-                List<FuncVo> prfuncs = prFuncsService.getFuncsByAdminId(adminUser.getId());
+                List<PrFuncs> prfuncs = prFuncsService.getFuncsByAdminId(adminUser.getId());
                 return new UserDetail(adminUser, prfuncs);
             }
             throw new ApplicationRunTimeExeption(InfoCode.ACCOUNT_OR_PASSWORD_ERROR);

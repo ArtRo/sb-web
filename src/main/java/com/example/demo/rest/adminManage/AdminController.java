@@ -24,13 +24,13 @@ public class AdminController {
 
     @RequestMapping(value = "/register", name = "注册", method = RequestMethod.POST)
     @ResponseBody
-    public Object registerAdmin(@Validated @RequestBody AdminUser adminUser, BindingResult bindingResult) {
+    public Object registerAdmin(@Validated AdminUser adminUser, BindingResult bindingResult) {
         return adminUserService.registerAdmin(adminUser);
     }
 
     @RequestMapping(value = "/login", name = "登陆", method = RequestMethod.POST)
     @ResponseBody
-    public Object loginAdmin(@Validated @RequestBody AdminUser adminUser,BindingResult bindingResult) {
+    public Object loginAdmin(@Validated AdminUser adminUser,BindingResult bindingResult) {
         return adminUserService.loginAdmin(adminUser);
     }
 }

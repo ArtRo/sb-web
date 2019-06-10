@@ -1,14 +1,11 @@
 package com.example.demo.service;
 
 import com.example.demo.entity.mymysql.PrFuncs;
-import com.example.demo.entity.mymysql.PrFuncsExample;
-import com.example.demo.vo.FuncVo;
 
 import java.util.List;
 
 public interface PrFuncsService {
 
-    List<PrFuncs> selectByEntity(PrFuncsExample record);
     
     PrFuncs selectById(Long id);
 
@@ -20,7 +17,9 @@ public interface PrFuncsService {
 
     Integer insertByBatch(List<PrFuncs> prFuncs);
 
-    List<FuncVo> getFuncsByAdminId(Integer adminId);
+    List<PrFuncs> getFuncsByAdminId(Integer adminId);
 
     Object editAuthByAdminId(Integer adminId, Long[] funcs);
+
+    List<PrFuncs> getModularAuthByUser(Integer adminId);
 }

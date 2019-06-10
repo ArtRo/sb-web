@@ -2,24 +2,16 @@ package com.example.demo.service.impl;
 
 import com.example.demo.dao.mymysql.PrRoleFuncRelationMapper;
 import com.example.demo.entity.mymysql.PrRoleFuncRelation;
-import com.example.demo.entity.mymysql.PrRoleFuncRelationExample;
 import com.example.demo.service.PrRoleFuncRelationService;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import java.util.List;
 
 @Service
 public class PrRoleFuncRelationServiceImpl implements PrRoleFuncRelationService {
 
     @Autowired
     private PrRoleFuncRelationMapper prRoleFuncRelationDao;
-    
-    @Override
-    public List<PrRoleFuncRelation> selectByEntity(PrRoleFuncRelationExample record) {
-        List<PrRoleFuncRelation> result = prRoleFuncRelationDao.selectByExample(record);
-        return result;
-    }  
+
     
     @Override
     public PrRoleFuncRelation selectById(Long id) {

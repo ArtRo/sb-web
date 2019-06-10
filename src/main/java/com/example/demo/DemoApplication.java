@@ -12,13 +12,15 @@ import org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @MapperScan("com.example.demo.dao.**")
 @EnableCaching
+@EnableAsync
 @EnableTransactionManagement
-//@ServletComponentScan(basePackages = {"com.example.demo.filter"})
+//@ServletComponentScan(basePackages = {"com.example.demo.config"})
 @EnableConfigurationProperties({FdfsConfiguration.class})
 public class DemoApplication {
 
